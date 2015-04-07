@@ -1,6 +1,6 @@
 This repo is a WIP for tools around migrating the Codehaus MOJO from Codehaus infrastructure to GitHub.
 
-== Getting users of the svn repo ==
+## Getting users of the svn repo
 
     $ svn log file:////some/path/MOJOHAUS-TO-GIT/MOJO-WIP | egrep  "^r[0-9]+ \|.*$"  | cut -d'|' -f2 | sort -u > mojo-committers.list
 
