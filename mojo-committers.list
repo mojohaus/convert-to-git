@@ -1,147 +1,147 @@
- acollign = Alexandre COLLIGNON <alexandre@collign.net>
- adslakeside 
- afloom = Anders Hammar <anders@hammar.net>
- agwilliams1000 
- aheritier 
- akarasulu 
- aramirez 
- arsenalist 
- averet 
- baptiste 
- benjones.selera 
- bentmann 
- bimargulies 
- bob 
- boba 
- bokken = Brett Okken <brett.okken.os@gmail.com>
- brett 
- brianfox 
- brozow 
- cameronbraid 
- carlos 
- cberry 
- charlie.collins 
- chirino 
- chris 
- christiangasser 
- dandiep 
- dantran = Dan Tran <dantran@gmail.com>
- darasan 
- david = David J. M. Karlsen <david@davidkarlsen.com>
- dennisl = Dennis Lundberg <dennisl@apache.org>
- dhawkins 
- dholroyd 
- dirk.laessig 
- djencks 
- dsimonek 
- dvicente72 
- eburghar 
- ehsavoie 
- eirbjo 
- epunzalan 
- eredmond 
- ervalerio 
- evenisse 
- fabemn = Fabrice Bellingard <bellingard@apache.org>
- fgiust 
- fredcooke 
- gjoseph 
- gleclaire 
- godin = Evgeny Mandrikov <godin@apache.org>
- gruenebe 
- handyande 
- hboutemy = Hervé Boutemy <hboutemy@apache.org>
- henryju = Julien Henry <henryju@yahoo.fr>
- hermod 
- huntc 
- james.w.dumay 
- jboynes 
- jdcasey 
- jdlandsh 
- jeanlaurent 
- jesse 
- jgenender 
- jglick 
- jieryn 
- jimisola 
- jmz 
- joakime 
- jochen = Jochen Wiedmann <jochen.wiedmann@gmail.com>
- joerg.hohwiller 
- jonnio 
- jponge 
- jreyes 
- jruiz 
- jstrachan 
- jtolentino 
- jubu 
- jvanzyl 
- kaare 
- kbravo 
- kenney 
- khmarbaise = Karl Heinz Marbaise <khmarbaise@apache.org>
- kismet 
- kohsuke 
- kristian 
- krosenvold = Kristian Rosenvold <krosenvold@apache.org>
- lacostej 
- lars3loff 
- lennartj = Lennart Jörelid <lj@jguru.se>
- maguro 
- marceloverdijk 
- mark 
- mauro 
- mfriedenhagen = Mirko Friedenhagen <mfriedenhagen@apache.org>
- michal 
- mkleint = Milos Kleint <mkleint@gmail.com> 
- mperham 
- mward 
- ndeloof 
- oching 
- olamy = Olivier Lamy <olamy@apache.org>
- (pas d'auteur) 
- pgier 
- pikus 
- pkernevez 
- ptab 
- rafale 
- rahul 
- Rahul 
- rfscholte = Robert Scholte <rfscholte@apache.org>
- rickard.v.essen = Rickard von Essen <rickard.von.essen@gmail.com>
- romale 
- root 
- russgold 
- sanlavre 
- sbv 
- schristou88 
- scryan 
- seidinger 
- sgoeschl 
- sheadrick 
- sherriff 
- shinobu 
- shinsuke 
- simon.brandhof = Simon Brandhof <simon.brandhof@sonarsource.com>
- slonopotamus 
- snicoll 
- soelvpil 
- stefanbirkner = Stefan Birkner <mail@stefan-birkner.de>
- stephenconnolly = Stephen Connolly <stephen.alan.connolly@gmail.com>
- stimpy 
- struberg 
- tastle 
- t.broyer 
- tchemit = Tony Chemit <tchemit@apache.org>
- tcurdt 
- thragor 
- tobrien 
- tom 
- topping 
- trygvis = Trygve Laugstøl <trygvis@inamo.no>
- user57 
- vmassol = Vincent Massol <vmassol@apache.org>
- vsiveton = Vincent Siveton <vsiveton@apache.org>
- wfay 
- wguttmn = Werner Guttmann <werner.guttmann@gmx.net>
- zznate 
+acollign = Alexandre COLLIGNON <alexandre@collign.net>
+adslakeside 
+afloom = Anders Hammar <anders@hammar.net>
+agwilliams1000 
+aheritier 
+akarasulu 
+aramirez 
+arsenalist 
+averet 
+baptiste 
+benjones.selera 
+bentmann 
+bimargulies 
+bob 
+boba 
+bokken = Brett Okken <brett.okken.os@gmail.com>
+brett 
+brianfox 
+brozow 
+cameronbraid 
+carlos 
+cberry 
+charlie.collins 
+chirino 
+chris 
+christiangasser 
+dandiep 
+dantran = Dan Tran <dantran@gmail.com>
+darasan 
+david = David J. M. Karlsen <david@davidkarlsen.com>
+dennisl = Dennis Lundberg <dennisl@apache.org>
+dhawkins 
+dholroyd 
+dirk.laessig 
+djencks 
+dsimonek 
+dvicente72 
+eburghar 
+ehsavoie 
+eirbjo 
+epunzalan 
+eredmond 
+ervalerio 
+evenisse 
+fabemn = Fabrice Bellingard <bellingard@apache.org>
+fgiust 
+fredcooke 
+gjoseph 
+gleclaire 
+godin = Evgeny Mandrikov <godin@apache.org>
+gruenebe 
+handyande 
+hboutemy = Hervé Boutemy <hboutemy@apache.org>
+henryju = Julien Henry <henryju@yahoo.fr>
+hermod 
+huntc 
+james.w.dumay 
+jboynes 
+jdcasey 
+jdlandsh 
+jeanlaurent 
+jesse 
+jgenender 
+jglick 
+jieryn 
+jimisola 
+jmz 
+joakime 
+jochen = Jochen Wiedmann <jochen.wiedmann@gmail.com>
+joerg.hohwiller 
+jonnio 
+jponge 
+jreyes 
+jruiz 
+jstrachan 
+jtolentino 
+jubu 
+jvanzyl 
+kaare 
+kbravo 
+kenney 
+khmarbaise = Karl Heinz Marbaise <khmarbaise@apache.org>
+kismet 
+kohsuke 
+kristian 
+krosenvold = Kristian Rosenvold <krosenvold@apache.org>
+lacostej 
+lars3loff 
+lennartj = Lennart Jörelid <lj@jguru.se>
+maguro 
+marceloverdijk 
+mark 
+mauro 
+mfriedenhagen = Mirko Friedenhagen <mfriedenhagen@apache.org>
+michal 
+mkleint = Milos Kleint <mkleint@gmail.com> 
+mperham 
+mward 
+ndeloof 
+oching 
+olamy = Olivier Lamy <olamy@apache.org>
+(pas d'auteur) 
+pgier 
+pikus 
+pkernevez 
+ptab 
+rafale 
+rahul 
+Rahul 
+rfscholte = Robert Scholte <rfscholte@apache.org>
+rickard.v.essen = Rickard von Essen <rickard.von.essen@gmail.com>
+romale 
+root 
+russgold 
+sanlavre 
+sbv 
+schristou88 
+scryan 
+seidinger 
+sgoeschl 
+sheadrick 
+sherriff 
+shinobu 
+shinsuke 
+simon.brandhof = Simon Brandhof <simon.brandhof@sonarsource.com>
+slonopotamus 
+snicoll 
+soelvpil 
+stefanbirkner = Stefan Birkner <mail@stefan-birkner.de>
+stephenconnolly = Stephen Connolly <stephen.alan.connolly@gmail.com>
+stimpy 
+struberg 
+tastle 
+t.broyer 
+tchemit = Tony Chemit <tchemit@apache.org>
+tcurdt 
+thragor 
+tobrien 
+tom 
+topping 
+trygvis = Trygve Laugstøl <trygvis@inamo.no>
+user57 
+vmassol = Vincent Massol <vmassol@apache.org>
+vsiveton = Vincent Siveton <vsiveton@apache.org>
+wfay 
+wguttmn = Werner Guttmann <werner.guttmann@gmx.net>
+zznate 
