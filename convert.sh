@@ -6,7 +6,9 @@
 set -eou pipefail
 
 GITHUB_USER=batmat
-GITHUB_TOKEN=14a90e81d82e34916460036dfe2bb489056386f1
+# https://github.com/blog/1509-personal-api-tokens
+GITHUB_TOKEN=`cat .github_token`
+# http://fabian-kostadinov.github.io/2015/01/16/how-to-find-a-github-team-id/
 GITHUB_TEAM_ID=1353638
 GITHUB_ORG=mojohaus
 
@@ -96,19 +98,14 @@ do
 	##########################################################
 	
 	#create github repo
-	curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d '{"name": "'"$projectName"'"}' https://api.github.com/user/repos?access_token=$TOKEN
-
-	curl -F "login=${GITHUB_USER}" -F "token=${GITHUB_TOKEN}" https://github.com/api/v2/json/repos/create -F "name=${GITHUB_ORG}/$projectName-wip" -F "has_issues=false" -F "has_downloads=false" -F "has_wiki=false"  --request POST
-
-	#add the dev team to the repo
-	curl -F "login=${GITHUB_USER}" -F "token=${GITHUB_TOKEN}" -F "name=${GITHUB_ORG}/${GIT_REPO_NAME}" http://github.com/api/v2/json/teams/${GITHUB_TEAM_ID}/repositories
+	curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d '{"name": "'"$projectName-wip"'"}' https://api.github.com/orgs/mojohaus/repos?access_token=$GITHUB_TOKEN
 
 	# set the origin
-	git remote add origin git@github.com:${GITHUB_ORG}/${GIT_REPO_NAME}.git
+	git remote add origin git@github.com:${GITHUB_ORG}/${projectName}-wip.git
 	#push it all
 	git push --tags origin master
 
-set -e
+	set -e
 	
 
 	cd -
