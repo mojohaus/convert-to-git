@@ -101,6 +101,7 @@ do
 	curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d '{"name": "'"$projectName-wip"'"}' https://api.github.com/orgs/mojohaus/repos?access_token=$GITHUB_TOKEN
 
 	# set the origin
+	# note : requires to approve your ssh key: https://github.com/settings/ssh
 	git remote add origin git@github.com:${GITHUB_ORG}/${projectName}-wip.git
 	#push it all
 	git push --tags origin master
