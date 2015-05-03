@@ -23,6 +23,8 @@ function getTags {
 	done
 	echo $tags | sed 's/^,//'
 }
+echo "Let's begin!"
+date
 
 for line in `cat repo-infos.csv | grep -v "#"`
 do
@@ -36,6 +38,7 @@ do
 	echo "# Processing $projectName"
 	echo "################################################"
 	echo "################################################"
+    date
 
 	echo 
 	echo "Creating repo $projectName"
@@ -111,12 +114,16 @@ do
 	    git update-ref -d "$branch_ref"
 	done
 
+	set +e
 	echo "remove merged branches"
 	git for-each-ref --format='%(refname)' refs/heads | while read branch; do
+		echo "Removing $branch... "
 	    git rev-parse --quiet --verify "$branch" || continue # make sure it still exists
 	    git symbolic-ref HEAD "$branch"
 	    git branch -d $( git branch --merged | grep -v '^\*' )
+	    echo "OK. Removed $branch"
 	done
+	set -e
 	##########################################################
 	# done fixing tags
 	##########################################################
@@ -142,4 +149,5 @@ do
 	cd -
 done
 
+date
 echo "This is the end."
