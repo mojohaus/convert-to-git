@@ -11,6 +11,7 @@ GITHUB_TOKEN=`cat .github_token`
 # http://fabian-kostadinov.github.io/2015/01/16/how-to-find-a-github-team-id/
 GITHUB_TEAM_ID=1353638
 GITHUB_ORG=mojohaus
+PUSH_TO_GITHUB="no"
 
 SVN_URL="file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP"
 
@@ -26,22 +27,40 @@ function getTags {
 for line in `cat repo-infos.csv | grep -v "#"`
 do
 	projectName=`echo $line|cut -d, -f1`
-	tagsStartsWith=`echo $line|cut -d, -f2`
+	trunkPath=`echo $line|cut -d, -f2`
+	tagsStartsWith=`echo $line|cut -d, -f3`
+	branches=`echo $line|cut -d, -f4|sed 's/|/,/g'`
 
-	tagsList=`getTags $tagsStartsWith`
+	echo "################################################"
+	echo "################################################"
+	echo "# Processing $projectName"
+	echo "################################################"
+	echo "################################################"
 
+	echo 
 	echo "Creating repo $projectName"
 	mkdir $projectName
 	cd $projectName
 
-	echo $SVN_URL
-	git svn init --trunk trunk/mojo/$projectName $SVN_URL
-	git config svn-remote.svn.tags "tags/{$tagsList}:refs/remotes/tags/*"
+	git svn init --trunk $trunkPath $SVN_URL
+	
+	tagsList=`getTags $tagsStartsWith`
+	if [ ! -z "$tagsList" ]; then
+		tagsConfig="tags/{$tagsList}:refs/remotes/tags/*"
+		echo "Tags specified. Putting '$tagsConfig'"	
+		git config svn-remote.svn.tags $tagsConfig
+	fi
+	
+	if [ ! -z "$branches" ]; then
+		branchesConfig="branches/{$branches}:refs/remotes/branches/*"
+		echo "Branches specified. Putting '$branchesConfig' in the conf"
+		git config svn-remote.svn.branches $branchesConfig
+	fi
 
 	echo "Fetch data"
 	git svn fetch --authors-file=../mojo-committers.list --authors-prog=../authors-prog.sh
 	
-	set +e
+	echo "Fixing tags"
 	##########################################################
 	# fix the tags, from: https://github.com/nothingmuch/git-svn-abandon
 	# from http://blog.sonatype.com/2011/04/goodbye-svn-hello-git/#.VUPexCftmkq :-)
@@ -97,16 +116,22 @@ do
 	# done fixing tags
 	##########################################################
 	
-	#create github repo
-	curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d '{"name": "'"$projectName-wip"'"}' https://api.github.com/orgs/mojohaus/repos?access_token=$GITHUB_TOKEN
+	if [ $PUSH_TO_GITHUB == "yes" ]; then
+		echo "Let's create the GH repo for $projectName and push onto it"
+		#create github repo
+		curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d '{"name": "'"$projectName-wip"'"}' https://api.github.com/orgs/mojohaus/repos?access_token=$GITHUB_TOKEN
 
-	# set the origin
-	# note : requires to approve your ssh key: https://github.com/settings/ssh
-	git remote add origin git@github.com:${GITHUB_ORG}/${projectName}-wip.git
-	#push it all
-	git push --tags origin master
+		# set the origin
+		# note : requires to approve your ssh key: https://github.com/settings/ssh
+		git remote add origin git@github.com:${GITHUB_ORG}/${projectName}-wip.git
+		
+		#push it all
+		git push --all origin master
+		git push --tags origin master
+	else
+		echo "push to GitHub disabled"
+	fi
 
-	set -e
 	
 
 	cd -
