@@ -128,15 +128,15 @@ do
 	# done fixing tags
 	##########################################################
 	
+	# set the origin
+	git remote add origin git@github.com:${GITHUB_ORG}/${projectName}-wip.git
+	
 	if [ $PUSH_TO_GITHUB == "yes" ]; then
 		echo "Let's create the GH repo for $projectName and push onto it"
 		#create github repo
 		curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d '{"name": "'"$projectName-wip"'"}' https://api.github.com/orgs/mojohaus/repos?access_token=$GITHUB_TOKEN
 
-		# set the origin
 		# note : requires to approve your ssh key: https://github.com/settings/ssh
-		git remote add origin git@github.com:${GITHUB_ORG}/${projectName}-wip.git
-		
 		#push it all
 		git push --all origin master
 		git push --tags origin master
