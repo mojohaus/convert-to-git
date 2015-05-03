@@ -51,10 +51,13 @@ do
 		git config svn-remote.svn.tags $tagsConfig
 	fi
 	
+	# Seems a wee touchy. Fortunately that shouldn't be a big issue for us since very
+	# few mojos actually have branches. And likely even fewer to really keep.
 	if [ ! -z "$branches" ]; then
+		# FIXME ? Beware branches cannot contain / with this way
 		branchesConfig="branches/{$branches}:refs/remotes/branches/*"
-		echo "Branches specified. Putting '$branchesConfig' in the conf"
-		git config svn-remote.svn.branches $branchesConfig
+        echo "Branches specified. Putting '$branchesConfig' in the conf"
+        git config svn-remote.svn.branches $branchesConfig
 	fi
 
 	echo "Fetch data"
@@ -80,7 +83,8 @@ do
 	    # if this ancestor is in trunk then we can just tag it
 	    # otherwise the tag has diverged from trunk and it's actually more like a
 	    # branch than a tag
-	    merge=$( git merge-base "refs/remotes/trunk" $parent );
+	    echo "Trying to find ancestor for $parent"
+	    merge=$( git merge-base "refs/remotes/origin/trunk" $parent );
 	    if [ "$merge" = "$parent" ]; then
 	        target_ref=$parent
 	    else
@@ -89,6 +93,7 @@ do
 	    fi
 
 	    # create an annotated tag based on the last commit in the tag, and delete the "branchy" ref for the tag
+	    echo "create the annotated tag $tag_ref"
 	    git show -s --pretty='format:%s%n%n%b' "$tag_ref" | \
 	    perl -ne 'next if /^git-svn-id:/; $s++, next if /^\s*r\d+\@.*:.*\|/; s/^ // if $s; print' | \
 	    env GIT_COMMITTER_NAME="$(  git show -s --pretty='format:%an' "$tag_ref" )" \
@@ -99,14 +104,14 @@ do
 	    git update-ref -d "$tag_ref"
 	done
 
-	# create local branches out of svn branches
+	echo "create local branches out of svn branches"
 	git for-each-ref --format='%(refname)' refs/remotes/ | while read branch_ref; do
 	    branch=${branch_ref#refs/remotes/}
 	    git branch "$branch" "$branch_ref"
 	    git update-ref -d "$branch_ref"
 	done
 
-	# remove merged branches
+	echo "remove merged branches"
 	git for-each-ref --format='%(refname)' refs/heads | while read branch; do
 	    git rev-parse --quiet --verify "$branch" || continue # make sure it still exists
 	    git symbolic-ref HEAD "$branch"
@@ -132,7 +137,9 @@ do
 		echo "push to GitHub disabled"
 	fi
 
-	
+	echo "Finished processing $projectName"
 
 	cd -
 done
+
+echo "This is the end."
