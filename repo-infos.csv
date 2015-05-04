@@ -3,8 +3,7 @@
 # Format,,,
 # Website,,,
 mojohaus.github.io,site,,
-
-# mojos
+# mojos,,,
 webstart,trunk/mojo/webstart,webstart-1,,
 findbugs-maven-plugin,trunk/mojo/findbugs-maven-plugin,findbugs-maven-plugin-,findbugs-maven-plugin-1.2.x|findbugs-maven-plugin-2.0.x|findbugs-maven-plugin-MFINDBUGS-119
 extra-enforcer-rules,trunk/mojo/extra-enforcer-rules,extra-enforcer-rules-,
