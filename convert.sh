@@ -11,7 +11,7 @@ GITHUB_TOKEN=`cat .github_token`
 # http://fabian-kostadinov.github.io/2015/01/16/how-to-find-a-github-team-id/
 GITHUB_TEAM_ID=1353638
 GITHUB_ORG=mojohaus
-PUSH_TO_GITHUB="no"
+PUSH_TO_GITHUB="yes"
 
 SVN_URL="file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP"
 
@@ -138,8 +138,8 @@ do
 
 		# note : requires to approve your ssh key: https://github.com/settings/ssh
 		#push it all
-		git push --all origin master
-		git push --tags origin master
+		git push --all origin
+		git push --tags origin
 	else
 		echo "push to GitHub disabled"
 	fi
