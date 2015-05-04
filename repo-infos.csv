@@ -12,7 +12,7 @@ templating-maven-plugin,trunk/mojo/templating-maven-plugin,templating-maven-plug
 animal-sniffer,trunk/mojo/animal-sniffer,animal-sniffer-,
 jdiff-maven-plugin,trunk/mojo/jdiff-maven-plugin,jdiff-maven-plugin-,
 sonar-maven-plugin,trunk/mojo/sonar-maven-plugin,sonar-maven-plugin-,sonar-maven-plugin-1.x
-appassembler-maven-plugin,trunk/mojo/appassembler,appassembler-,
+appassembler,trunk/mojo/appassembler,appassembler-,
 exec-maven-plugin,trunk/mojo/exec-maven-plugin,exec-maven-plugin-,
 flatten-maven-plugin,trunk/mojo/flatten-maven-plugin,flatten-maven-plugin-,
 buildnumber-maven-plugin,trunk/mojo/buildnumber-maven-plugin,buildnumber-maven-plugin-,
