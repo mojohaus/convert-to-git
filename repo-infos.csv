@@ -34,3 +34,5 @@ dbunit-maven-plugin,trunk/mojo/dbunit-maven-plugin,dbunit-maven-plugin-,
 clirr-maven-plugin,trunk/mojo/clirr-maven-plugin,clirr-maven-plugin-,
 cobertura-maven-plugin,trunk/mojo/cobertura-maven-plugin,cobertura-maven-plugin-,
 gwt-maven-plugin,trunk/mojo/gwt-maven-plugin,gwt-maven-plugin-,
+castor-maven-plugin,trunk/mojo/castor-maven-plugin,castor-maven-plugin-,
+
