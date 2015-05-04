@@ -1,7 +1,8 @@
-#Beware: no spaces below outside the comment lines
+#repoName,trunk path,tag prefix,branches (under branches/ separated by |)
+#
+# Beware: no spaces below outside the comment lines
 #
 # Format
-#repoName,trunk path,tag prefix,branches (under branches/ separated by |)
 #
 # Website
 mojohaus.github.io,site,,
