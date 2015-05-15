@@ -129,12 +129,12 @@ do
 	##########################################################
 	
 	# set the origin
-	git remote add origin git@github.com:${GITHUB_ORG}/${projectName}-wip.git
+	git remote add origin git@github.com:${GITHUB_ORG}/${projectName}.git
 	
 	if [ $PUSH_TO_GITHUB == "yes" ]; then
 		echo "Let's create the GH repo for $projectName and push onto it"
 		#create github repo
-		curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d '{"name": "'"$projectName-wip"'"}' https://api.github.com/orgs/mojohaus/repos?access_token=$GITHUB_TOKEN
+		curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d '{"name": "'"$projectName"'"}' https://api.github.com/orgs/mojohaus/repos?access_token=$GITHUB_TOKEN
 
 		# note : requires to approve your ssh key: https://github.com/settings/ssh
 		#push it all
