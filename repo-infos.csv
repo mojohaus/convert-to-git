@@ -43,3 +43,5 @@
 appassembler,trunk/mojo/appassembler,appassembler-,
 castor-maven-plugin,trunk/mojo/castor-maven-plugin,castor-maven-plugin-,
 truezip,trunk/mojo/truezip,truezip-,
+keytool,trunk/mojo/keytool,keytool-,
+latex-maven,trunk/mojo/latex-maven,latex-maven-,
