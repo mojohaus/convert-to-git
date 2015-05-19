@@ -87,7 +87,7 @@ do
 	    # otherwise the tag has diverged from trunk and it's actually more like a
 	    # branch than a tag
 	    echo "Trying to find ancestor for $parent"
-	    merge=$( git merge-base "refs/remotes/origin/trunk" $parent );
+	    merge=$( git merge-base "refs/remotes/origin/trunk" $parent || echo "" );
 	    if [ "$merge" = "$parent" ]; then
 	        target_ref=$parent
 	    else
