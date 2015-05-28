@@ -74,3 +74,4 @@
 #webapp-javaee6,trunk/mojo/mojo-archetypes/webapp-javaee6,webapp-javaee6-,
 #webapp-javaee7,trunk/mojo/mojo-archetypes/webapp-javaee7,webapp-javaee7-,
 #webapp-jee5,trunk/mojo/mojo-archetypes/webapp-jee5,webapp-jee5-,
+webminifier-maven-plugin,trunk/mojo/webminifier-maven-plugin,webminifier-maven-plugin-,
