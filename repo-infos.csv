@@ -78,3 +78,4 @@ webminifier-maven-plugin,trunk/mojo/webminifier-maven-plugin,webminifier-maven-p
 axistools-maven-plugin,trunk/mojo/axistools-maven-plugin,axistools-maven-plugin-,
 l10n-maven-plugin,trunk/mojo/l10n-maven-plugin,l10n-maven-plugin-,
 javacc-maven-plugin,trunk/mojo/javacc-maven-plugin,javacc-maven-plugin-,
+aspectj-maven-plugin,trunk/mojo/aspectj-maven-plugin,aspectj-maven-plugin-,
