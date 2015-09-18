@@ -7,7 +7,7 @@ Please report if you find issues or file pull requests to improve it.
 
 Simple way: use the public image _batmat/mojohaus-converter_.
 
-The image is design to be run once for each mojo migration.
+This image is designed to be run once for each mojo migration.
 The resulting migrated Git repository will be created inside the `/newgitrepo` path of the container.
 
 Here's an example command to run to trigger the conversion of the `aspectj-maven-plugin` (note: just an example, [this repo has already been converted and is already accessible](https://github.com/mojohaus/aspectj-maven-plugin))
@@ -18,6 +18,8 @@ Here's an example command to run to trigger the conversion of the `aspectj-maven
                 -e tagsStartsWith=aspectj-maven-plugin- \
                 -e branches="" \
           batmat/mojohaus-converter
+
+When that execution ends, you will have a local new directory called _/newrepo_ with the migrated svn->git repository inside.
 
 ## Random tips
 
