@@ -5,7 +5,7 @@ Please report if you find issues or file pull requests to improve it.
 
 ## How to use it?
 
-Simple way: use the public image _batmat/mojohaus-repo_.
+Simple way: use the public image _batmat/mojohaus-converter_.
 
 The image is design to be run once for each mojo migration.
 The resulting migrated Git repository will be created inside the `/newgitrepo` path of the container.
@@ -17,7 +17,7 @@ Here's an example command to run to trigger the conversion of the `aspectj-maven
                 -e trunkPath=trunk/mojo/aspectj-maven-plugin \
                 -e tagsStartsWith=aspectj-maven-plugin- \
                 -e branches="" \
-          batmat/mojohaus-repo
+          batmat/mojohaus-converter
 
 ## Random tips
 
