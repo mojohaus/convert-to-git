@@ -1,5 +1,0 @@
-First create a hook like specified here http://blog.ulysses.fr/index.php/post/16/10/2008/Subversion-%3A-comment-creer-un-miroir-de-facon-securisee
-
-Then run
-svnsync initialize --username svnsync --allow-non-empty file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP https://svn.codehaus.org/mojo/
-svnsync sync file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP

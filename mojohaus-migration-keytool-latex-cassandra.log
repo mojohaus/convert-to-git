@@ -1,2171 +1,0 @@
-Let's begin!
-dimanche 17 mai 2015, 21:50:45 (UTC+0200)
-################################################
-################################################
-# Processing keytool
-################################################
-################################################
-dimanche 17 mai 2015, 21:50:45 (UTC+0200)
-
-Creating repo keytool
-Dépôt Git vide initialisé dans /home/tiste/MOJOHAUS-TO-GIT/convert-to-git/keytool/.git/
-Tags specified. Putting 'tags/{keytool-1.1,keytool-1.2,keytool-1.3,keytool-1.4,keytool-1.5,keytool-maven-plugin-1.0,keytool-maven-plugin-1.0-beta-1}:refs/remotes/tags/*'
-Fetch data
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/keytool-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/keytool-maven-plugin-1.0-beta-1, 2039
-Initializing parent: refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2039
-W: Ignoring error from SVN, path probably does not exist: (160013): Le système de fichiers ne contient pas cet élément: Fichier non trouvé : révision 101, chemin '/trunk/mojo/keytool-maven-plugin'
-W: Do not be alarmed at the above message git-svn is just searching aggressively for old history.
-This may take a while on large repositories
-Checked through r101Checked through r201Checked through r301Checked through r401Checked through r501Checked through r601Checked through r701Checked through r801Checked through r901Checked through r1001Checked through r1101Checked through r1201Checked through r1301Checked through r1401Checked through r1501Checked through r1601Checked through r1701Checked through r1801Checked through r1901Checked through r2001Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/mojo-sandbox/keytool-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/keytool-maven-plugin, 2037
-Initializing parent: refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037
-W: Ignoring error from SVN, path probably does not exist: (160013): Le système de fichiers ne contient pas cet élément: Fichier non trouvé : révision 101, chemin '/trunk/mojo/mojo-sandbox/keytool-maven-plugin'
-W: Do not be alarmed at the above message git-svn is just searching aggressively for old history.
-This may take a while on large repositories
-Checked through r101Checked through r201Checked through r301Checked through r401Checked through r501Checked through r601Checked through r701	A	src/test/java/org/codehaus/mojo/keytool/GenkeyMojoTest.java
-	A	src/main/java/org/codehaus/mojo/keytool/GenkeyMojo.java
-	A	src/site/site.xml
-	A	src/site/apt/howto.apt
-	A	src/site/apt/introduction.apt
-	A	pom.xml
-r766 = 9123e00f6bc0eb35d101fd41fa9c69123d2b447b (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	M	src/site/apt/howto.apt
-	M	pom.xml
-r775 = 1408d3417a4ce7c768cac89cf85bb857d9b347b1 (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	M	pom.xml
-r1168 = bc037497144902f20be6e975b166450f8c036a44 (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	M	pom.xml
-r1244 = 0f3faebda3cd9c0a0e9d17d8675570f0c30d0916 (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	M	pom.xml
-r1245 = 85c3d76607ef1435232bf7c39a54b98276412aa4 (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	M	pom.xml
-r1275 = 4419eae33f4ed329d0dc9d744671c7ffbe7dacc0 (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	M	pom.xml
-r1276 = e5362a63a90514b8271ec608421f288726db42c2 (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	M	pom.xml
-r1288 = 92670277419f04fda916508ea77a74346d8115d0 (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	M	pom.xml
-r1317 = b07ff88a8c781d020849c9e1d518f7c20e2e360d (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	M	pom.xml
-r1328 = d105f83720293ca12a3432ad3de8e9b914664d42 (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-r1433 = 5251f215922c6c38761776e1dddb53587da1ff3c (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	A	LICENSE.txt
-	M	pom.xml
-r1434 = 61c7991b33f9f774aa6c031af3f910039b6cce5f (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	M	src/site/site.xml
-r1492 = 3ef5045c0eb22b04819ddb9998e4c83269499304 (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	M	pom.xml
-r1805 = d1d357e103c9d0bafc8dfbbd1297e6883dd4739d (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	A	src/test/java/org/codehaus/mojo/keytool/CleanKeyMojoTest.java
-	A	src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolMojo.java
-	A	src/main/java/org/codehaus/mojo/keytool/CleanKeyMojo.java
-	M	src/main/java/org/codehaus/mojo/keytool/GenkeyMojo.java
-	M	src/site/apt/howto.apt
-	M	src/site/apt/introduction.apt
-	M	pom.xml
-r1907 = 2313dac4b126961cfcac19f5c1bd38ba5f4e2aa6 (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	M	pom.xml
-r1914 = 3924e4c23b2ef325ca39730b63a6a400b94a71da (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-	M	src/site/site.xml
-r1944 = 00d53b7357890953e91953d1aa21181e04ca8bf8 (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037)
-Found branch parent: (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2039) 00d53b7357890953e91953d1aa21181e04ca8bf8
-Following parent with do_switch
-Successfully followed parent
-r2039 = 17cfd81b93d1258704b458f9e6e73d0d164472ae (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2039)
-Found branch parent: (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1) 17cfd81b93d1258704b458f9e6e73d0d164472ae
-Following parent with do_switch
-	M	pom.xml
-Successfully followed parent
-r2042 = 4327ad9c252fd503956d45bb2e8a7ed406bdbfe2 (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/keytool-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/keytool-maven-plugin-1.0, 6119
-Initializing parent: refs/remotes/tags/keytool-maven-plugin-1.0@6119
-Checked through r101Checked through r201Checked through r301Checked through r401Checked through r501Checked through r601Checked through r701Checked through r801Checked through r901Checked through r1001Checked through r1101Checked through r1201Checked through r1301Checked through r1401Checked through r1501Checked through r1601Checked through r1701Checked through r1801Checked through r1901Checked through r2001Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/mojo-sandbox/keytool-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/keytool-maven-plugin, 2037
-Initializing parent: refs/remotes/tags/keytool-maven-plugin-1.0@2037
-Checked through r101Checked through r201Checked through r301Checked through r401Checked through r501Checked through r601Checked through r701	A	src/test/java/org/codehaus/mojo/keytool/GenkeyMojoTest.java
-	A	src/main/java/org/codehaus/mojo/keytool/GenkeyMojo.java
-	A	src/site/site.xml
-	A	src/site/apt/howto.apt
-	A	src/site/apt/introduction.apt
-	A	pom.xml
-r766 = 9123e00f6bc0eb35d101fd41fa9c69123d2b447b (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	M	src/site/apt/howto.apt
-	M	pom.xml
-r775 = 1408d3417a4ce7c768cac89cf85bb857d9b347b1 (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	M	pom.xml
-r1168 = bc037497144902f20be6e975b166450f8c036a44 (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	M	pom.xml
-r1244 = 0f3faebda3cd9c0a0e9d17d8675570f0c30d0916 (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	M	pom.xml
-r1245 = 85c3d76607ef1435232bf7c39a54b98276412aa4 (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	M	pom.xml
-r1275 = 4419eae33f4ed329d0dc9d744671c7ffbe7dacc0 (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	M	pom.xml
-r1276 = e5362a63a90514b8271ec608421f288726db42c2 (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	M	pom.xml
-r1288 = 92670277419f04fda916508ea77a74346d8115d0 (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	M	pom.xml
-r1317 = b07ff88a8c781d020849c9e1d518f7c20e2e360d (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	M	pom.xml
-r1328 = d105f83720293ca12a3432ad3de8e9b914664d42 (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-r1433 = 5251f215922c6c38761776e1dddb53587da1ff3c (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	A	LICENSE.txt
-	M	pom.xml
-r1434 = 61c7991b33f9f774aa6c031af3f910039b6cce5f (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	M	src/site/site.xml
-r1492 = 3ef5045c0eb22b04819ddb9998e4c83269499304 (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	M	pom.xml
-r1805 = d1d357e103c9d0bafc8dfbbd1297e6883dd4739d (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	A	src/test/java/org/codehaus/mojo/keytool/CleanKeyMojoTest.java
-	A	src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolMojo.java
-	A	src/main/java/org/codehaus/mojo/keytool/CleanKeyMojo.java
-	M	src/main/java/org/codehaus/mojo/keytool/GenkeyMojo.java
-	M	src/site/apt/howto.apt
-	M	src/site/apt/introduction.apt
-	M	pom.xml
-r1907 = 2313dac4b126961cfcac19f5c1bd38ba5f4e2aa6 (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	M	pom.xml
-r1914 = 3924e4c23b2ef325ca39730b63a6a400b94a71da (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-	M	src/site/site.xml
-r1944 = 00d53b7357890953e91953d1aa21181e04ca8bf8 (refs/remotes/tags/keytool-maven-plugin-1.0@2037)
-Found branch parent: (refs/remotes/tags/keytool-maven-plugin-1.0@6119) 00d53b7357890953e91953d1aa21181e04ca8bf8
-Following parent with do_switch
-Successfully followed parent
-r2039 = 17cfd81b93d1258704b458f9e6e73d0d164472ae (refs/remotes/tags/keytool-maven-plugin-1.0@6119)
-	M	pom.xml
-r2040 = 60fc26da916373204237a74e9da5a8802eb3d3fe (refs/remotes/tags/keytool-maven-plugin-1.0@6119)
-	M	pom.xml
-r2041 = f54f844b11aee0ba4f02576e24ae2343fbebce63 (refs/remotes/tags/keytool-maven-plugin-1.0@6119)
-	M	pom.xml
-r2043 = 55fef48af7e16748495d26dbb0747538fa2cacd9 (refs/remotes/tags/keytool-maven-plugin-1.0@6119)
-r2060 = 68863169dc0ac0f96a92b7cff82b0b11dcd46650 (refs/remotes/tags/keytool-maven-plugin-1.0@6119)
-	M	src/test/java/org/codehaus/mojo/keytool/GenkeyMojoTest.java
-	M	src/main/java/org/codehaus/mojo/keytool/GenkeyMojo.java
-	M	pom.xml
-r2166 = 66c70d1ec9c85ad32c6a9d8f4927a724875f3fd7 (refs/remotes/tags/keytool-maven-plugin-1.0@6119)
-	M	pom.xml
-r2172 = bc76d6a4b2b616a49d3bea48a824b824a3ef9294 (refs/remotes/tags/keytool-maven-plugin-1.0@6119)
-	A	src/it/pom.xml
-r3386 = a69c8237b1315ec0703a34f6c7cd97fe9b809114 (refs/remotes/tags/keytool-maven-plugin-1.0@6119)
-	M	pom.xml
-r3775 = c9f808342d6553c6322e4209a8c88be1ab33b337 (refs/remotes/tags/keytool-maven-plugin-1.0@6119)
-	M	pom.xml
-r3869 = 2497ebc6f23533ee8e196ffe6078c19707aa4f5f (refs/remotes/tags/keytool-maven-plugin-1.0@6119)
-	M	pom.xml
-r5065 = 3c3f0190ce616f76d85374ba58a030fb35139b50 (refs/remotes/tags/keytool-maven-plugin-1.0@6119)
-	M	pom.xml
-r5695 = 486035b363d83ddad28778ad7cdfc9af31a5a350 (refs/remotes/tags/keytool-maven-plugin-1.0@6119)
-	M	pom.xml
-r5811 = 93a370d4e01aaac1867a6671e6c2620534be0086 (refs/remotes/tags/keytool-maven-plugin-1.0@6119)
-	A	src/site/fml/faq.fml
-	M	src/site/site.xml
-	D	src/site/apt/howto.apt
-	D	src/site/apt/introduction.apt
-	A	src/site/apt/examples/examples.apt
-	A	src/site/apt/usage.apt
-	A	src/site/apt/index.apt
-	M	pom.xml
-W: -empty_dir: trunk/mojo/keytool-maven-plugin/src/site/apt/howto.apt
-W: -empty_dir: trunk/mojo/keytool-maven-plugin/src/site/apt/introduction.apt
-r6035 = e5652ec2418ac4f6600c67f7cee0343dbeae92cc (refs/remotes/tags/keytool-maven-plugin-1.0@6119)
-Found branch parent: (refs/remotes/tags/keytool-maven-plugin-1.0) e5652ec2418ac4f6600c67f7cee0343dbeae92cc
-Following parent with do_switch
-	M	pom.xml
-Successfully followed parent
-r6127 = 429fb18311c0b99d4a58671ae492864500315331 (refs/remotes/tags/keytool-maven-plugin-1.0)
-	M	src/site/fml/faq.fml
-r6130 = 571bc15ae7df1b00f6401cd112301997b12f8898 (refs/remotes/tags/keytool-maven-plugin-1.0)
-branch_from: /tags => /tags/keytool-maven-plugin-1.0-beta-1
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/keytool-maven-plugin-1.0-beta-1 => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/keytool-maven-plugin-1.0-beta-1, 15256
-Found branch parent: (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1) 4327ad9c252fd503956d45bb2e8a7ed406bdbfe2
-Following parent with do_switch
-Successfully followed parent
-r15258 = 558ca14f339be3fa97cc6297c17249d5972241a0 (refs/remotes/tags/keytool-maven-plugin-1.0-beta-1)
-branch_from: /tags => /tags/keytool-maven-plugin-1.0
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/keytool-maven-plugin-1.0 => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/keytool-maven-plugin-1.0, 15256
-Found branch parent: (refs/remotes/tags/keytool-maven-plugin-1.0) 571bc15ae7df1b00f6401cd112301997b12f8898
-Following parent with do_switch
-Successfully followed parent
-r15258 = 8830e89312cc512a2143bbef089b8541ef2fcfc5 (refs/remotes/tags/keytool-maven-plugin-1.0)
-r15791 = 04c4bdb6865b7672d1bdf8d9b21be50a2201a6ae (refs/remotes/origin/trunk)
-	A	pom.xml
-	A	keytool-api/src/test/resources/simple-certificate
-	A	keytool-api/src/test/resources/simple-keystore
-	A	keytool-api/src/test/resources/simple-certificate-request
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolListRequestTest.java
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateCertificateRequestTest.java
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolImportCertificateRequestTest.java
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolPrintCRLFileRequestTest.java
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolChangeAliasRequestTest.java
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateKeyPairRequestTest.java
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolPrintCertificateRequestTest.java
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolChangeKeyPasswordRequestTest.java
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolDeleteRequestTest.java
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/AbstractKeyToolRequestTest.java
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolExportCertificateRequestTest.java
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolChangeStorePasswordRequestTest.java
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateCertificateRequestRequestTest.java
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolPrintCertificateRequestRequestTest.java
-	A	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateSecretKeyRequestTest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyToolRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyToolRequestWithKeyStoreAndAliasParameters.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyToolCommandLineBuilder.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyToolUtil.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyToolException.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyToolRequestWithKeyStoreParameters.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyToolResult.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyTool.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/DefaultKeyToolResult.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/DefaultKeyTool.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/AbstractKeyToolRequestWithKeyStoreAndAliasParameters.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateCertificateRequestRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolPrintCertificateRequestRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/AbstractKeyToolRequestWithKeyStoreParameters.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateSecretKeyRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolListRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolImportCertificateRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateKeyPairRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolChangeKeyPasswordRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolExportCertificateRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolChangeStorePasswordRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateCertificateRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolPrintCRLFileRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolPrintCertificateRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolChangeAliasRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolImportKeystoreRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolDeleteRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/AbstractKeyToolRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/CommandLineConfigurationException.java
-	A	keytool-api/src/site/site.xml
-	A	keytool-api/src/site/apt/index.apt.vm
-	A	keytool-api/pom.xml
-	A	keytool-api/README.txt
-	A	keytool-api/LICENSE.txt
-	A	LICENSE.txt
-	A	config/checkstyle-header.txt
-	A	keytool-maven-plugin/config/checkstyle-header.txt
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractCmdLineKeyToolMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/CleanKeyMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ExportMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenkeyMojo.java
-	A	keytool-maven-plugin/src/main/resources/keytool_de.properties
-	A	keytool-maven-plugin/src/main/resources/keytool.properties
-	A	keytool-maven-plugin/src/main/resources/keytool_en.properties
-	A	keytool-maven-plugin/src/main/resources/keytool_fr.properties
-	A	keytool-maven-plugin/src/site/fml/faq.fml
-	A	keytool-maven-plugin/src/site/site.xml
-	A	keytool-maven-plugin/src/site/apt/usage.apt.vm
-	A	keytool-maven-plugin/src/site/apt/index.apt
-	A	keytool-maven-plugin/src/site/apt/examples/examples.apt
-	A	keytool-maven-plugin/src/it/settings.xml
-	A	keytool-maven-plugin/src/it/MKEYTOOL-10/goals.txt
-	A	keytool-maven-plugin/src/it/MKEYTOOL-10/postbuild.groovy
-	A	keytool-maven-plugin/src/it/MKEYTOOL-10/pom.xml
-	A	keytool-maven-plugin/src/test/java/org/codehaus/mojo/keytool/ImportMojoTest.java
-	A	keytool-maven-plugin/src/test/java/org/codehaus/mojo/keytool/CleanKeyMojoTest.java
-	A	keytool-maven-plugin/src/test/java/org/codehaus/mojo/keytool/ExportMojoTest.java
-	A	keytool-maven-plugin/src/test/java/org/codehaus/mojo/keytool/GenkeyMojoTest.java
-	A	keytool-maven-plugin/pom.xml
-	A	keytool-maven-plugin/LICENSE.txt
-	A	src/site/site.xml
-r15792 = e429c9518791b5ad78ecaf89b5daf11b8588a8e5 (refs/remotes/origin/trunk)
-	D	keytool-maven-plugin/src/test/java/org/codehaus/mojo/keytool/ImportMojoTest.java
-	D	keytool-maven-plugin/src/test/java/org/codehaus/mojo/keytool/ExportMojoTest.java
-	D	keytool-maven-plugin/src/test/java/org/codehaus/mojo/keytool/GenkeyMojoTest.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractCmdLineKeyToolMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ExportMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenkeyMojo.java
-	M	keytool-maven-plugin/pom.xml
-	M	pom.xml
-	D	keytool-api/README.txt
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolCommandLineBuilder.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolUtil.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolException.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolRequestWithKeyStoreParameters.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolResult.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyTool.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolCommandLineBuilder.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolResult.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/DefaultKeyTool.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestWithKeyStoreParameters.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateSecretKeyRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolListRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolChangeKeyPasswordRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolChangeStorePasswordRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolChangeAliasRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolImportKeystoreRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolDeleteRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestWithKeyStoreAndAliasParameters.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/CommandLineConfigurationException.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolRequest.java
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolRequestWithKeyStoreAndAliasParameters.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/CommandLineConfigurationException.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/DefaultKeyTool.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/DefaultKeyToolResult.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyTool.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyToolCommandLineBuilder.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyToolException.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyToolRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyToolRequestWithKeyStoreAndAliasParameters.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyToolRequestWithKeyStoreParameters.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyToolResult.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/KeyToolUtil.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/AbstractKeyToolRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/AbstractKeyToolRequestWithKeyStoreAndAliasParameters.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/AbstractKeyToolRequestWithKeyStoreParameters.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolChangeAliasRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolChangeKeyPasswordRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolChangeStorePasswordRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolDeleteRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolExportCertificateRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateCertificateRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateCertificateRequestRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateKeyPairRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateSecretKeyRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolImportCertificateRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolImportKeystoreRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolListRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolPrintCRLFileRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolPrintCertificateRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/requests/KeyToolPrintCertificateRequestRequest.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared/keytool/
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/AbstractKeyToolRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolChangeAliasRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolChangeKeyPasswordRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolChangeStorePasswordRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolDeleteRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolExportCertificateRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateCertificateRequestRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateCertificateRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateKeyPairRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolGenerateSecretKeyRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolImportCertificateRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolListRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolPrintCRLFileRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolPrintCertificateRequestRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/KeyToolPrintCertificateRequestTest.java
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests/
-	D	keytool-api/src/test/resources/simple-certificate-request
-	D	keytool-api/src/test/resources/simple-certificate
-	D	keytool-api/src/test/resources/simple-keystore
-	A	keytool-api-1.5/src/test/resources/simple-certificate-request
-	A	keytool-api-1.5/src/test/resources/simple-certificate
-	A	keytool-api-1.5/src/test/resources/simple-keystore
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolDeleteRequestIT.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequestIT.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeStorePasswordRequestIT.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestRequestIT.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestRequestIT.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateSecretKeyRequestIT.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolListRequestIT.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestIT.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequestIT.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequestIT.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeAliasRequestIT.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequestIT.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestIT.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeKeyPasswordRequestIT.java
-	A	keytool-api-1.5/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	A	keytool-api-1.5/src/site/site.xml
-	A	keytool-api-1.5/src/site/apt/index.apt.vm
-	A	keytool-api-1.5/pom.xml
-	A	keytool-api-1.5/README.txt
-	A	keytool-api-1.5/LICENSE.txt
-	A	keytool-api-1.6/src/test/resources/simple-certificate
-	A	keytool-api-1.6/src/test/resources/simple-keystore
-	A	keytool-api-1.6/src/test/resources/simple-certificate-request
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeAliasRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeKeyPasswordRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolDeleteRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeStorePasswordRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateSecretKeyRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolListRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequestIT.java
-	A	keytool-api-1.6/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	A	keytool-api-1.6/src/site/site.xml
-	A	keytool-api-1.6/src/site/apt/index.apt.vm
-	A	keytool-api-1.6/pom.xml
-	A	keytool-api-1.6/README.txt
-	A	keytool-api-1.6/LICENSE.txt
-W: -empty_dir: trunk/mojo/keytool/keytool-api/README.txt
-W: -empty_dir: trunk/mojo/keytool/keytool-api/src/main/java/org/codehaus/mojo/shared/keytool
-W: -empty_dir: trunk/mojo/keytool/keytool-api/src/test/java/org/codehaus/mojo/shared/keytool/requests
-W: -empty_dir: trunk/mojo/keytool/keytool-api/src/test/resources/simple-certificate
-W: -empty_dir: trunk/mojo/keytool/keytool-api/src/test/resources/simple-certificate-request
-W: -empty_dir: trunk/mojo/keytool/keytool-api/src/test/resources/simple-keystore
-W: -empty_dir: trunk/mojo/keytool/keytool-maven-plugin/src/test/java/org/codehaus/mojo/keytool/ExportMojoTest.java
-W: -empty_dir: trunk/mojo/keytool/keytool-maven-plugin/src/test/java/org/codehaus/mojo/keytool/GenkeyMojoTest.java
-W: -empty_dir: trunk/mojo/keytool/keytool-maven-plugin/src/test/java/org/codehaus/mojo/keytool/ImportMojoTest.java
-r15793 = 71a97ca6d132031daaf7196ec9af052236966304 (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/pom.xml
-	M	pom.xml
-	D	keytool-api/src/main/java/org/codehaus/mojo/shared
-	M	keytool-api-1.6/pom.xml
-W: -empty_dir: trunk/mojo/keytool/keytool-api/src/main/java/org/codehaus/mojo/shared
-r15795 = c14ec5e2f3654769309e8371c2acb5d175dcc776 (refs/remotes/origin/trunk)
-	D	keytool-maven-plugin/config/checkstyle-header.txt
-	D	keytool-maven-plugin/config/
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractCmdLineKeyToolMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/CleanKeyMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ExportMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenkeyMojo.java
-	M	keytool-maven-plugin/pom.xml
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyTool.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolCommandLineBuilder.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolResult.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/DefaultKeyTool.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolChangeAliasRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolImportKeystoreRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolDeleteRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestWithKeyStoreAndAliasParameters.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestWithKeyStoreParameters.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateSecretKeyRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolListRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolChangeKeyPasswordRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolChangeStorePasswordRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/CommandLineConfigurationException.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolRequestWithKeyStoreAndAliasParameters.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolCommandLineBuilder.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolUtil.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolException.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolRequestWithKeyStoreParameters.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolResult.java
-	M	keytool-api/src/site/site.xml
-	M	keytool-api/src/site/apt/index.apt.vm
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateSecretKeyRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolListRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeAliasRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeKeyPasswordRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolDeleteRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeStorePasswordRequestIT.java
-	M	keytool-api-1.5/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	M	keytool-api-1.5/src/site/apt/index.apt.vm
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateSecretKeyRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolListRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeAliasRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeKeyPasswordRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolDeleteRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeStorePasswordRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestRequestIT.java
-	M	keytool-api-1.6/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	M	keytool-api-1.6/src/site/apt/index.apt.vm
-	M	config/checkstyle-header.txt
-W: -empty_dir: trunk/mojo/keytool/keytool-maven-plugin/config
-r15796 = a538abfab0608fed4840dc8b83f27264e58b8878 (refs/remotes/origin/trunk)
-	M	keytool-api-1.6/src/site/apt/index.apt.vm
-r15797 = 3bb92c82c304d2809e449966dfd3361e1e061f0f (refs/remotes/origin/trunk)
-	M	pom.xml
-	M	keytool-api/pom.xml
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.6/pom.xml
-	M	keytool-maven-plugin/pom.xml
-r15821 = 2c31de402806a3bed7e3bd605c8b32a8d6943f6d (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/keytool => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/keytool-1.1, 15821
-Found branch parent: (refs/remotes/tags/keytool-1.1) 2c31de402806a3bed7e3bd605c8b32a8d6943f6d
-Following parent with do_switch
-Successfully followed parent
-r15822 = 52d11ac0da10a190f8195b4cc3cca5cdb00c8c7c (refs/remotes/tags/keytool-1.1)
-	M	keytool-maven-plugin/pom.xml
-	M	pom.xml
-	M	keytool-api/pom.xml
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.6/pom.xml
-r15823 = fe07845537be080d8fa4749d49e2f8d164ace49b (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/src/site/apt/usage.apt.vm
-	M	keytool-maven-plugin/src/site/apt/index.apt
-r16254 = 323108d347af370cfc37ae34fad11da83e965a94 (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportMojo.java
-r16255 = d1756002cbb34e2a6d1eafe15a85c3a480bfb474 (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ExportMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenkeyMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractCmdLineKeyToolMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportMojo.java
-r16256 = 55cb2947b6b15cc5dadba7123e8bea40038d772e (refs/remotes/origin/trunk)
-	M	pom.xml
-r16257 = 3b81f05d9902b83ea70ecf7df353c257a24c0b34 (refs/remotes/origin/trunk)
-	M	keytool-api-1.5/src/test/resources/simple-certificate
-	M	keytool-api-1.5/src/test/resources/simple-keystore
-	M	keytool-api-1.5/src/test/resources/simple-certificate-request
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-	M	keytool-api-1.6/src/test/resources/simple-certificate
-	M	keytool-api-1.6/src/test/resources/simple-keystore
-	M	keytool-api-1.6/src/test/resources/simple-certificate-request
-r16258 = d706483d3c6cc4518e5b726a0260584c35772bf0 (refs/remotes/origin/trunk)
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolRequestWithKeyStoreParameters.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolCommandLineBuilder.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/DefaultKeyTool.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequest.java
-r16259 = 56567572568a30ad5d24702f2982dec0b95442fa (refs/remotes/origin/trunk)
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateSecretKeyMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ListMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/DeleteAliasMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportCertificateMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateKeyPairMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeKeyPasswordMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ExportCertificateMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeStorePasswordMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestWithKeyStoreAndAliasParametersMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestWithKeyStoreParametersMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/CleanKeyMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/PrintCRLFileMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateCertificateMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/PrintCertificateMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeAliasMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportKeystoreMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateCertificateRequestMojo.java
-	A	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/PrintCertificateRequestMojo.java
-r16260 = 372c97d9582bafdee8cb6862d9f639a943b99079 (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ExportCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeStorePasswordMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestWithKeyStoreAndAliasParametersMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestWithKeyStoreParametersMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/PrintCRLFileMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/PrintCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeAliasMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportKeystoreMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateCertificateRequestMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/PrintCertificateRequestMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateSecretKeyMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ListMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/DeleteAliasMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateKeyPairMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeKeyPasswordMojo.java
-	M	keytool-maven-plugin/src/site/apt/usage.apt.vm
-	M	keytool-maven-plugin/src/site/apt/index.apt
-r16261 = 27e023121a5d6d7c75258c09d3123bdfa6d0ff02 (refs/remotes/origin/trunk)
-	M	pom.xml
-r16262 = ccee129b96a5bd8e5fef4676c26d0b0176c5bf8b (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/src/site/apt/index.apt
-r16268 = ed32556349981ac787ad77b74e00d043a42e524f (refs/remotes/origin/trunk)
-	M	keytool-api/pom.xml
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.6/pom.xml
-	M	keytool-maven-plugin/pom.xml
-	M	pom.xml
-r16302 = 9da35092fbfa7a99d6b18aebb13733c13a8d01bf (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/keytool => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/keytool-1.2, 16302
-Found branch parent: (refs/remotes/tags/keytool-1.2) 9da35092fbfa7a99d6b18aebb13733c13a8d01bf
-Following parent with do_switch
-Successfully followed parent
-r16303 = 3de0c4d761d5a821ff94128fc16bb37d74c94666 (refs/remotes/tags/keytool-1.2)
-	M	keytool-api/pom.xml
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.6/pom.xml
-	M	keytool-maven-plugin/pom.xml
-	M	pom.xml
-r16304 = 60b18cc101527a50ad6d2556be9311d3b8868694 (refs/remotes/origin/trunk)
-	D	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportMojo.java
-	D	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ExportMojo.java
-	D	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenkeyMojo.java
-	D	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractCmdLineKeyToolMojo.java
-	M	keytool-maven-plugin/src/it/MKEYTOOL-10/pom.xml
-W: -empty_dir: trunk/mojo/keytool/keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractCmdLineKeyToolMojo.java
-W: -empty_dir: trunk/mojo/keytool/keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ExportMojo.java
-W: -empty_dir: trunk/mojo/keytool/keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenkeyMojo.java
-W: -empty_dir: trunk/mojo/keytool/keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportMojo.java
-r17040 = faff2dbcbe4caad9936d845886980675f66e2038 (refs/remotes/origin/trunk)
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.6/pom.xml
-r17041 = b78d135d529654db8b523f53b62874f6a9e9d1af (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateCertificateRequestMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/PrintCertificateRequestMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateSecretKeyMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ListMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/DeleteAliasMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateKeyPairMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeKeyPasswordMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ExportCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeStorePasswordMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestWithKeyStoreAndAliasParametersMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestWithKeyStoreParametersMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/CleanKeyMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/PrintCRLFileMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/PrintCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeAliasMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportKeystoreMojo.java
-	M	keytool-maven-plugin/pom.xml
-	M	pom.xml
-r17042 = b1dd31a93024608a63ad9369d57314be39b6a09f (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestWithKeyStoreParametersMojo.java
-r17043 = bd1b9b90e44ddbe5f93ba38845c944e632b15445 (refs/remotes/origin/trunk)
-	M	pom.xml
-r17060 = ae95668ddf4a4355ec0a445807d5843c1650ec29 (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/pom.xml
-	M	pom.xml
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/DefaultKeyTool.java
-	M	keytool-api-1.6/pom.xml
-	A	keytool-api-1.7/src/test/resources/simple-certificate-request
-	A	keytool-api-1.7/src/test/resources/simple-certificate
-	A	keytool-api-1.7/src/test/resources/simple-keystore
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateSecretKeyRequestIT.java
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolListRequestIT.java
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestIT.java
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequestIT.java
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequestIT.java
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeAliasRequestIT.java
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequestIT.java
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestIT.java
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeKeyPasswordRequestIT.java
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolDeleteRequestIT.java
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequestIT.java
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeStorePasswordRequestIT.java
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestRequestIT.java
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestRequestIT.java
-	A	keytool-api-1.7/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	A	keytool-api-1.7/src/site/site.xml
-	A	keytool-api-1.7/src/site/apt/index.apt.vm
-	A	keytool-api-1.7/pom.xml
-	A	keytool-api-1.7/README.txt
-	A	keytool-api-1.7/LICENSE.txt
-r17915 = ca8f7ad6376cb26d55edd06e63ef34a43f4479bf (refs/remotes/origin/trunk)
-	A	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportKeystoreRequestIT.java
-	M	keytool-api-1.7/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	M	keytool-api-1.5/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	A	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportKeystoreRequestIT.java
-	A	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportKeystoreRequestIT.java
-	M	keytool-api-1.6/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-r18338 = 8178ae39c69872211eb11f21bda6916aae8041f7 (refs/remotes/origin/trunk)
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportKeystoreRequestIT.java
-	M	keytool-maven-plugin/src/site/apt/index.apt
-r18339 = 7e98217a2fae5f7c8050781b7c2554e8f560029a (refs/remotes/origin/trunk)
-	D	keytool-api/src/test/java/org/codehaus/mojo/shared/keytool
-W: -empty_dir: trunk/mojo/keytool/keytool-api/src/test/java/org/codehaus/mojo/shared/keytool
-r18340 = 464bdc9415e0aa97a729b165e2756bd027eeec2b (refs/remotes/origin/trunk)
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestIT.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportKeystoreMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateKeyPairMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestWithKeyStoreParametersMojo.java
-	M	keytool-maven-plugin/src/site/apt/index.apt
-r18341 = 4f96a595e94943f168f57b69296bb2e253de19be (refs/remotes/origin/trunk)
-	M	config/checkstyle-header.txt
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeKeyPasswordMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ExportCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeStorePasswordMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestWithKeyStoreAndAliasParametersMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestWithKeyStoreParametersMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/CleanKeyMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/PrintCRLFileMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/PrintCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeAliasMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportKeystoreMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateCertificateRequestMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/PrintCertificateRequestMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateSecretKeyMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ListMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/DeleteAliasMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateKeyPairMojo.java
-	M	keytool-maven-plugin/src/site/apt/index.apt
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolChangeKeyPasswordRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolExportCertificateRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolChangeStorePasswordRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolRequestFixtures.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolGenerateCertificateRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolPrintCRLFileRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolPrintCertificateRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolChangeAliasRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolImportKeystoreRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolDeleteRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolGenerateCertificateRequestRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolPrintCertificateRequestRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolGenerateSecretKeyRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolListRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolImportCertificateRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolGenerateKeyPairRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-	A	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/ResourceFixtures.java
-	A	keytool-api-test/src/main/resources/simple-certificate-request
-	A	keytool-api-test/src/main/resources/simple-certificate
-	A	keytool-api-test/src/main/resources/simple-keystore
-	A	keytool-api-test/pom.xml
-	A	keytool-api-test/README.txt
-	M	pom.xml
-	A	keytool-api/src/main/java/org/codehaus/mojo/keytool/UnsupportedKeyToolRequestException.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolCommandLineBuilder.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolResult.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/DefaultKeyTool.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestWithKeyStoreParameters.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateSecretKeyRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolListRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolChangeKeyPasswordRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolChangeStorePasswordRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolChangeAliasRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolImportKeystoreRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolDeleteRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestWithKeyStoreAndAliasParameters.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/CommandLineConfigurationException.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolRequestWithKeyStoreAndAliasParameters.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolCommandLineBuilder.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolUtil.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolException.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolRequestWithKeyStoreParameters.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolResult.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyTool.java
-	D	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeAliasRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportKeystoreRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeKeyPasswordRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolDeleteRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeStorePasswordRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateSecretKeyRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolListRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequestIT.java
-	M	keytool-api-1.5/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.6/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	D	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeStorePasswordRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateSecretKeyRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolListRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeAliasRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportKeystoreRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeKeyPasswordRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolDeleteRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequestIT.java
-	M	keytool-api-1.6/pom.xml
-	D	keytool-api-1.7/README.txt
-	D	keytool-api-1.7/src/test/resources/simple-certificate-request
-	D	keytool-api-1.7/src/test/resources/simple-certificate
-	D	keytool-api-1.7/src/test/resources/simple-keystore
-	D	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportKeystoreRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeKeyPasswordRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolDeleteRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeStorePasswordRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateSecretKeyRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolListRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeAliasRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestIT.java
-	M	keytool-api-1.7/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	M	keytool-api-1.7/pom.xml
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.7/README.txt
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.7/src/test/resources/simple-certificate
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.7/src/test/resources/simple-certificate-request
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.7/src/test/resources/simple-keystore
-r18342 = aa7f9f3edc467eca6b6bf8beb0144cb2b043fa98 (refs/remotes/origin/trunk)
-	D	keytool-api-1.5/README.txt
-	D	keytool-api-1.5/src/test/resources/simple-certificate-request
-	D	keytool-api-1.5/src/test/resources/simple-certificate
-	D	keytool-api-1.5/src/test/resources/simple-keystore
-	D	keytool-api-1.6/README.txt
-	D	keytool-api-1.6/src/test/resources/simple-certificate-request
-	D	keytool-api-1.6/src/test/resources/simple-certificate
-	D	keytool-api-1.6/src/test/resources/simple-keystore
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequestIT.java
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.5/README.txt
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.5/src/test/resources/simple-certificate
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.5/src/test/resources/simple-certificate-request
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.5/src/test/resources/simple-keystore
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.6/README.txt
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.6/src/test/resources/simple-certificate
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.6/src/test/resources/simple-certificate-request
-W: -empty_dir: trunk/mojo/keytool/keytool-api-1.6/src/test/resources/simple-keystore
-r18343 = dd423eeec3e25652efe1fe41edd815c39dd65f51 (refs/remotes/origin/trunk)
-	M	keytool-api-test/pom.xml
-	M	pom.xml
-	M	keytool-api/pom.xml
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.6/pom.xml
-	M	keytool-api-1.7/pom.xml
-	M	keytool-maven-plugin/pom.xml
-r18344 = eab33b1f8d9fe226fff3502f2ec724f5b182a077 (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/keytool => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/keytool-1.3, 18344
-Found branch parent: (refs/remotes/tags/keytool-1.3) eab33b1f8d9fe226fff3502f2ec724f5b182a077
-Following parent with do_switch
-Successfully followed parent
-r18345 = 8b0c667721a5b9b4aa1bd74585281cad6bbba865 (refs/remotes/tags/keytool-1.3)
-	M	keytool-maven-plugin/pom.xml
-	M	keytool-api-test/pom.xml
-	M	pom.xml
-	M	keytool-api/pom.xml
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.6/pom.xml
-	M	keytool-api-1.7/pom.xml
-r18346 = 9dfc17a0fef3bf53ea7acd4874c415b8f310357a (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeStorePasswordMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestWithKeyStoreParametersMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeAliasMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportKeystoreMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateCertificateRequestMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateSecretKeyMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ImportCertificateMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/GenerateKeyPairMojo.java
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/ChangeKeyPasswordMojo.java
-	M	keytool-maven-plugin/pom.xml
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-	M	pom.xml
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolCommandLineBuilder.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolResult.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/DefaultKeyTool.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolCommandLineBuilder.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolResult.java
-	M	keytool-api/pom.xml
-	M	keytool-api-1.5/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	M	keytool-api-1.6/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	M	keytool-api-1.7/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-r18901 = 26bbb9a9d6604fdac861c35d5cc14c63cf955daf (refs/remotes/origin/trunk)
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/DefaultKeyTool.java
-	M	keytool-api/pom.xml
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.5/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	M	keytool-api-1.6/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	M	keytool-api-1.6/pom.xml
-	M	keytool-api-1.7/pom.xml
-	M	keytool-api-1.7/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolCommandLineBuilder.java
-	M	keytool-maven-plugin/pom.xml
-	M	pom.xml
-r18923 = 74e2c8ccf314531a8b6fbcb2178e90c789222b65 (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestMojo.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolDeleteRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolGenerateCertificateRequestRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolPrintCertificateRequestRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolGenerateSecretKeyRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolListRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolImportCertificateRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolGenerateKeyPairRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolChangeKeyPasswordRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolExportCertificateRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolChangeStorePasswordRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolGenerateCertificateRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolPrintCRLFileRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolChangeAliasRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolPrintCertificateRequestIT.java
-	M	keytool-api-test/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolImportKeystoreRequestIT.java
-	M	pom.xml
-	D	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolException.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolResult.java
-	D	keytool-api/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolResult.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/DefaultKeyTool.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/requests/AbstractKeyToolRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolRequest.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyTool.java
-	M	keytool-api/src/main/java/org/codehaus/mojo/keytool/UnsupportedKeyToolRequestException.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolDeleteRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeStorePasswordRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateSecretKeyRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolListRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeAliasRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportKeystoreRequestIT.java
-	M	keytool-api-1.5/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeKeyPasswordRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolListRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeAliasRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportKeystoreRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeKeyPasswordRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolDeleteRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeStorePasswordRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestRequestIT.java
-	M	keytool-api-1.6/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateSecretKeyRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateSecretKeyRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolListRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateCertificateRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportCertificateRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCRLFileRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeAliasRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolGenerateKeyPairRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolPrintCertificateRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolImportKeystoreRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeKeyPasswordRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolDeleteRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolExportCertificateRequestIT.java
-	M	keytool-api-1.7/src/test/java/org/codehaus/mojo/keytool/requests/KeyToolChangeStorePasswordRequestIT.java
-W: -empty_dir: trunk/mojo/keytool/keytool-api/src/main/java/org/codehaus/mojo/keytool/DefaultKeyToolResult.java
-W: -empty_dir: trunk/mojo/keytool/keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolException.java
-W: -empty_dir: trunk/mojo/keytool/keytool-api/src/main/java/org/codehaus/mojo/keytool/KeyToolResult.java
-r19061 = 5076980eb21be1cca580f4848da5e32419f4aae7 (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestMojo.java
-r19062 = b696f2fa5ba95b43451407878ac0f96244631b6e (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/pom.xml
-r19063 = 8c9144e35e15780ecb90b8c28bdc94cfb05e8f79 (refs/remotes/origin/trunk)
-	M	pom.xml
-r19087 = 573d7aa8911add547b7d4a45502c1321fb0df0a3 (refs/remotes/origin/trunk)
-	M	pom.xml
-r19111 = 1e652d35c6d7d99069419d8d5ab2c950af169175 (refs/remotes/origin/trunk)
-	M	keytool-api/src/site/apt/index.apt.vm
-r19112 = b4127095a3d1d9884cbd7cf45f6d87fb7d5d760e (refs/remotes/origin/trunk)
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.6/pom.xml
-	M	keytool-api-1.7/pom.xml
-	M	keytool-maven-plugin/pom.xml
-	M	keytool-api-test/pom.xml
-	M	pom.xml
-	M	keytool-api/pom.xml
-r19113 = b94042cf9c24802f40fe5c95565e5c606809e9b0 (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/keytool => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/keytool-1.4, 19113
-Found branch parent: (refs/remotes/tags/keytool-1.4) b94042cf9c24802f40fe5c95565e5c606809e9b0
-Following parent with do_switch
-Successfully followed parent
-r19114 = d65430da1133a6f52960822f65fb3429e205d04d (refs/remotes/tags/keytool-1.4)
-	M	keytool-api/pom.xml
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.6/pom.xml
-	M	keytool-api-1.7/pom.xml
-	M	keytool-maven-plugin/pom.xml
-	M	keytool-api-test/pom.xml
-	M	pom.xml
-r19115 = 5551bccafc61b4a45a5f4cc01c468dbcb41ff037 (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/pom.xml
-r19363 = ed935289c3dcced09d17f4614ca1a38941dbe8f6 (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/pom.xml
-r19694 = a14c9c378b8738fafa039a453da0778048ab0c73 (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/pom.xml
-	M	keytool-api-test/pom.xml
-	M	pom.xml
-	M	keytool-api/pom.xml
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.6/pom.xml
-	M	keytool-api-1.7/pom.xml
-r19696 = fb2151aa7d4fee5690362fa2e678ffbb055659aa (refs/remotes/origin/trunk)
-	M	keytool-api/pom.xml
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.6/pom.xml
-	M	keytool-api-1.7/pom.xml
-	M	keytool-maven-plugin/pom.xml
-	M	keytool-api-test/pom.xml
-	M	pom.xml
-r19698 = cc998a83388626acd470c8865f311a4863ee6f44 (refs/remotes/origin/trunk)
-	M	keytool-api-test/pom.xml
-	M	pom.xml
-	M	keytool-api/pom.xml
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.6/pom.xml
-	M	keytool-api-1.7/pom.xml
-	M	keytool-maven-plugin/pom.xml
-r19700 = 67fda4fca796149c5cb05e86970a14dd8344b86d (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/keytool => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/keytool-1.5, 19700
-Found branch parent: (refs/remotes/tags/keytool-1.5) 67fda4fca796149c5cb05e86970a14dd8344b86d
-Following parent with do_switch
-Successfully followed parent
-r19701 = 9cbaa7ae09777c1bb290eaed65099a549d17e622 (refs/remotes/tags/keytool-1.5)
-	M	keytool-api/pom.xml
-	M	keytool-api-1.5/pom.xml
-	M	keytool-api-1.6/pom.xml
-	M	keytool-api-1.7/pom.xml
-	M	keytool-maven-plugin/pom.xml
-	M	keytool-api-test/pom.xml
-	M	pom.xml
-r19702 = c8ebe2529e0c9d8089e134a2ea9a70b63b2e8e40 (refs/remotes/origin/trunk)
-	M	pom.xml
-r19703 = 2695a7ead19bb6980a9b1009e7836b9f3ffbbdad (refs/remotes/tags/keytool-1.5)
-	M	pom.xml
-r19704 = cfeeb16239dc4c90aa1067b4f0f899567fa2b785 (refs/remotes/origin/trunk)
-	M	keytool-maven-plugin/src/main/java/org/codehaus/mojo/keytool/AbstractKeyToolRequestMojo.java
-r20141 = bf902cb1fc3ef11f43bf9621edeb22d7f974305b (refs/remotes/origin/trunk)
-r20142 = 4a117ccb1fda395d5fb8ec7a50864cb31358304a (refs/remotes/origin/trunk)
-Checked out HEAD:
-  file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/keytool r20142
-Fixing tags
-Trying to find ancestor for 2c31de402806a3bed7e3bd605c8b32a8d6943f6d
-create the annotated tag refs/remotes/tags/keytool-1.1
-Trying to find ancestor for 9da35092fbfa7a99d6b18aebb13733c13a8d01bf
-create the annotated tag refs/remotes/tags/keytool-1.2
-Trying to find ancestor for eab33b1f8d9fe226fff3502f2ec724f5b182a077
-create the annotated tag refs/remotes/tags/keytool-1.3
-Trying to find ancestor for b94042cf9c24802f40fe5c95565e5c606809e9b0
-create the annotated tag refs/remotes/tags/keytool-1.4
-Trying to find ancestor for 2695a7ead19bb6980a9b1009e7836b9f3ffbbdad
-tag has diverged: keytool-1.5
-create the annotated tag refs/remotes/tags/keytool-1.5
-Trying to find ancestor for 571bc15ae7df1b00f6401cd112301997b12f8898
-tag has diverged: keytool-maven-plugin-1.0
-create the annotated tag refs/remotes/tags/keytool-maven-plugin-1.0
-Trying to find ancestor for 4327ad9c252fd503956d45bb2e8a7ed406bdbfe2
-tag has diverged: keytool-maven-plugin-1.0-beta-1
-create the annotated tag refs/remotes/tags/keytool-maven-plugin-1.0-beta-1
-Trying to find ancestor for 00d53b7357890953e91953d1aa21181e04ca8bf8
-tag has diverged: keytool-maven-plugin-1.0-beta-1@2037
-create the annotated tag refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2037
-Trying to find ancestor for 00d53b7357890953e91953d1aa21181e04ca8bf8
-tag has diverged: keytool-maven-plugin-1.0-beta-1@2039
-create the annotated tag refs/remotes/tags/keytool-maven-plugin-1.0-beta-1@2039
-Trying to find ancestor for 00d53b7357890953e91953d1aa21181e04ca8bf8
-tag has diverged: keytool-maven-plugin-1.0@2037
-create the annotated tag refs/remotes/tags/keytool-maven-plugin-1.0@2037
-Trying to find ancestor for e5652ec2418ac4f6600c67f7cee0343dbeae92cc
-tag has diverged: keytool-maven-plugin-1.0@6119
-create the annotated tag refs/remotes/tags/keytool-maven-plugin-1.0@6119
-create local branches out of svn branches
-remove merged branches
-Removing refs/heads/master... 
-4a117ccb1fda395d5fb8ec7a50864cb31358304a
-Branche origin/trunk supprimée (précédemment 4a117cc).
-OK. Removed refs/heads/master
-Removing refs/heads/origin/trunk... 
-Let's create the GH repo for keytool and push onto it
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{
-  "id": 35780486,
-  "name": "keytool",
-  "full_name": "mojohaus/keytool",
-  "owner": {
-    "login": "mojohaus",
-    "id": 11403816,
-    "avatar_url": "https://avatars.githubusercontent.com/u/11403816?v=3",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/mojohaus",
-    "html_url": "https://github.com/mojohaus",
-    "followers_url": "https://api.github.com/users/mojohaus/followers",
-    "following_url": "https://api.github.com/users/mojohaus/following{/other_user}",
-    "gists_url": "https://api.github.com/users/mojohaus/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/mojohaus/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/mojohaus/subscriptions",
-    "organizations_url": "https://api.github.com/users/mojohaus/orgs",
-    "repos_url": "https://api.github.com/users/mojohaus/repos",
-    "events_url": "https://api.github.com/users/mojohaus/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/mojohaus/received_events",
-    "type": "Organization",
-    "site_admin": false
-  },
-  "private": false,
-  "html_url": "https://github.com/mojohaus/keytool",
-  "description": null,
-  "fork": false,
-  "url": "https://api.github.com/repos/mojohaus/keytool",
-  "forks_url": "https://api.github.com/repos/mojohaus/keytool/forks",
-  "keys_url": "https://api.github.com/repos/mojohaus/keytool/keys{/key_id}",
-  "collaborators_url": "https://api.github.com/repos/mojohaus/keytool/collaborators{/collaborator}",
-  "teams_url": "https://api.github.com/repos/mojohaus/keytool/teams",
-  "hooks_url": "https://api.github.com/repos/mojohaus/keytool/hooks",
-  "issue_events_url": "https://api.github.com/repos/mojohaus/keytool/issues/events{/number}",
-  "events_url": "https://api.github.com/repos/mojohaus/keytool/events",
-  "assignees_url": "https://api.github.com/repos/mojohaus/keytool/assignees{/user}",
-  "branches_url": "https://api.github.com/repos/mojohaus/keytool/branches{/branch}",
-  "tags_url": "https://api.github.com/repos/mojohaus/keytool/tags",
-  "blobs_url": "https://api.github.com/repos/mojohaus/keytool/git/blobs{/sha}",
-  "git_tags_url": "https://api.github.com/repos/mojohaus/keytool/git/tags{/sha}",
-  "git_refs_url": "https://api.github.com/repos/mojohaus/keytool/git/refs{/sha}",
-  "trees_url": "https://api.github.com/repos/mojohaus/keytool/git/trees{/sha}",
-  "statuses_url": "https://api.github.com/repos/mojohaus/keytool/statuses/{sha}",
-  "languages_url": "https://api.github.com/repos/mojohaus/keytool/languages",
-  "stargazers_url": "https://api.github.com/repos/mojohaus/keytool/stargazers",
-  "contributors_url": "https://api.github.com/repos/mojohaus/keytool/contributors",
-  "subscribers_url": "https://api.github.com/repos/mojohaus/keytool/subscribers",
-  "subscription_url": "https://api.github.com/repos/mojohaus/keytool/subscription",
-  "commits_url": "https://api.github.com/repos/mojohaus/keytool/commits{/sha}",
-  "git_commits_url": "https://api.github.com/repos/mojohaus/keytool/git/commits{/sha}",
-  "comments_url": "https://api.github.com/repos/mojohaus/keytool/comments{/number}",
-  "issue_comment_url": "https://api.github.com/repos/mojohaus/keytool/issues/comments{/number}",
-  "contents_url": "https://api.github.com/repos/mojohaus/keytool/contents/{+path}",
-  "compare_url": "https://api.github.com/repos/mojohaus/keytool/compare/{base}...{head}",
-  "merges_url": "https://api.github.com/repos/mojohaus/keytool/merges",
-  "archive_url": "https://api.github.com/repos/mojohaus/keytool/{archive_format}{/ref}",
-  "downloads_url": "https://api.github.com/repos/mojohaus/keytool/downloads",
-  "issues_url": "https://api.github.com/repos/mojohaus/keytool/issues{/number}",
-  "pulls_url": "https://api.github.com/repos/mojohaus/keytool/pulls{/number}",
-  "milestones_url": "https://api.github.com/repos/mojohaus/keytool/milestones{/number}",
-  "notifications_url": "https://api.github.com/repos/mojohaus/keytool/notifications{?since,all,participating}",
-  "labels_url": "https://api.github.com/repos/mojohaus/keytool/labels{/name}",
-  "releases_url": "https://api.github.co100  5965  100  5946  100    19   5414     17  0:00:01  0:00:01 --:--:--  5420
-m/repos/mojohaus/keytool/releases{/id}",
-  "created_at": "2015-05-17T19:53:06Z",
-  "updated_at": "2015-05-17T19:53:06Z",
-  "pushed_at": "2015-05-17T19:53:06Z",
-  "git_url": "git://github.com/mojohaus/keytool.git",
-  "ssh_url": "git@github.com:mojohaus/keytool.git",
-  "clone_url": "https://github.com/mojohaus/keytool.git",
-  "svn_url": "https://github.com/mojohaus/keytool",
-  "homepage": null,
-  "size": 0,
-  "stargazers_count": 0,
-  "watchers_count": 0,
-  "language": null,
-  "has_issues": true,
-  "has_downloads": true,
-  "has_wiki": true,
-  "has_pages": false,
-  "forks_count": 0,
-  "mirror_url": null,
-  "open_issues_count": 0,
-  "forks": 0,
-  "open_issues": 0,
-  "watchers": 0,
-  "default_branch": "master",
-  "permissions": {
-    "admin": true,
-    "push": true,
-    "pull": true
-  },
-  "organization": {
-    "login": "mojohaus",
-    "id": 11403816,
-    "avatar_url": "https://avatars.githubusercontent.com/u/11403816?v=3",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/mojohaus",
-    "html_url": "https://github.com/mojohaus",
-    "followers_url": "https://api.github.com/users/mojohaus/followers",
-    "following_url": "https://api.github.com/users/mojohaus/following{/other_user}",
-    "gists_url": "https://api.github.com/users/mojohaus/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/mojohaus/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/mojohaus/subscriptions",
-    "organizations_url": "https://api.github.com/users/mojohaus/orgs",
-    "repos_url": "https://api.github.com/users/mojohaus/repos",
-    "events_url": "https://api.github.com/users/mojohaus/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/mojohaus/received_events",
-    "type": "Organization",
-    "site_admin": false
-  },
-  "network_count": 0,
-  "subscribers_count": 22
-}
-To git@github.com:mojohaus/keytool.git
- * [new branch]      master -> master
-To git@github.com:mojohaus/keytool.git
- * [new tag]         keytool-1.1 -> keytool-1.1
- * [new tag]         keytool-1.2 -> keytool-1.2
- * [new tag]         keytool-1.3 -> keytool-1.3
- * [new tag]         keytool-1.4 -> keytool-1.4
- * [new tag]         keytool-1.5 -> keytool-1.5
- * [new tag]         keytool-maven-plugin-1.0 -> keytool-maven-plugin-1.0
- * [new tag]         keytool-maven-plugin-1.0-beta-1 -> keytool-maven-plugin-1.0-beta-1
- * [new tag]         keytool-maven-plugin-1.0-beta-1@2037 -> keytool-maven-plugin-1.0-beta-1@2037
- * [new tag]         keytool-maven-plugin-1.0-beta-1@2039 -> keytool-maven-plugin-1.0-beta-1@2039
- * [new tag]         keytool-maven-plugin-1.0@2037 -> keytool-maven-plugin-1.0@2037
- * [new tag]         keytool-maven-plugin-1.0@6119 -> keytool-maven-plugin-1.0@6119
-Finished processing keytool
-/home/tiste/MOJOHAUS-TO-GIT/convert-to-git
-################################################
-################################################
-# Processing latex-maven
-################################################
-################################################
-dimanche 17 mai 2015, 21:53:13 (UTC+0200)
-
-Creating repo latex-maven
-Dépôt Git vide initialisé dans /home/tiste/MOJOHAUS-TO-GIT/convert-to-git/latex-maven/.git/
-Tags specified. Putting 'tags/{latex-maven-1.0,latex-maven-1.1}:refs/remotes/tags/*'
-Fetch data
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/sandbox/latex-maven => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/latex-maven, 11934
-Initializing parent: refs/remotes/origin/trunk@11934
-W: Ignoring error from SVN, path probably does not exist: (160013): Le système de fichiers ne contient pas cet élément: Fichier non trouvé : révision 101, chemin '/trunk/sandbox/latex-maven'
-W: Do not be alarmed at the above message git-svn is just searching aggressively for old history.
-This may take a while on large repositories
-Checked through r101Checked through r201Checked through r301Checked through r401Checked through r501Checked through r601Checked through r701Checked through r801Checked through r901Checked through r1001Checked through r1101Checked through r1201Checked through r1301Checked through r1401Checked through r1501Checked through r1601Checked through r1701Checked through r1801Checked through r1901Checked through r2001Checked through r2101Checked through r2201Checked through r2301Checked through r2401Checked through r2501Checked through r2601Checked through r2701Checked through r2801Checked through r2901Checked through r3001Checked through r3101Checked through r3201Checked through r3301Checked through r3401Checked through r3501Checked through r3601Checked through r3701Checked through r3801Checked through r3901Checked through r4001Checked through r4101Checked through r4201Checked through r4301Checked through r4401Checked through r4501Checked through r4601Checked through r4701Checked through r4801Checked through r4901Checked through r5001Checked through r5101Checked through r5201Checked through r5301Checked through r5401Checked through r5501Checked through r5601Checked through r5701Checked through r5801Checked through r5901Checked through r6001Checked through r6101Checked through r6201Checked through r6301Checked through r6401Checked through r6501Checked through r6601Checked through r6701Checked through r6801Checked through r6901Checked through r7001Checked through r7101Checked through r7201Checked through r7301Checked through r7401Checked through r7501Checked through r7601Checked through r7701Checked through r7801Checked through r7901Checked through r8001Checked through r8101Checked through r8201Checked through r8301Checked through r8401Checked through r8501Checked through r8601Checked through r8701Checked through r8801Checked through r8901Checked through r9001Checked through r9101Checked through r9201Checked through r9301Checked through r9401Checked through r9501Checked through r9601Checked through r9701Checked through r9801Checked through r9901Checked through r10001Checked through r10101Checked through r10201Checked through r10301Checked through r10401Checked through r10501Checked through r10601Checked through r10701Checked through r10801Checked through r10901Checked through r11001Checked through r11101Checked through r11201Checked through r11301Checked through r11401Checked through r11501Checked through r11601	A	pom.xml
-	A	latex-maven-plugin/pom.xml
-	A	latex-maven-plugin/NOTICE.txt
-	A	latex-maven-plugin/LICENSE.txt
-	A	latex-maven-plugin/src/main/java/org/codehaus/mojo/latex/LaTeXMojo.java
-	A	latex-maven-plugin/src/main/latex/common/foo.txt
-	A	latex-maven-plugin/src/main/latex/sample/sample.bib
-	A	latex-maven-plugin/src/main/latex/sample/sample.tex
-	A	latex-maven-plugin/src/site/resources/images/layout.png
-	A	latex-maven-plugin/src/site/fml/faq.fml
-	A	latex-maven-plugin/src/site/site.xml
-	A	latex-maven-plugin/src/site/apt/index.apt
-r11669 = 4dc1f7f073dc4942ba91f40d43fc03dea8fd7be9 (refs/remotes/origin/trunk@11934)
-r11670 = 248dfae2a2020b5470276caa85601766aca66b60 (refs/remotes/origin/trunk@11934)
-	A	NOTICE.txt
-	A	LICENSE.txt
-	A	latex-maven-archetype/src/main/resources/archetype-resources/src/main/latex/common/foo.txt
-	A	latex-maven-archetype/src/main/resources/archetype-resources/src/main/latex/sample/sample.bib
-	A	latex-maven-archetype/src/main/resources/archetype-resources/src/main/latex/sample/sample.tex
-	A	latex-maven-archetype/src/main/resources/archetype-resources/pom.xml
-	A	latex-maven-archetype/src/main/resources/META-INF/maven/archetype.xml
-	A	latex-maven-archetype/pom.xml
-	A	latex-maven-archetype/NOTICE.txt
-	A	latex-maven-archetype/LICENSE.txt
-	M	pom.xml
-	M	latex-maven-plugin/src/site/apt/index.apt
-r11672 = 060d2d2d98c8736b9506641f25e8faf4db71839d (refs/remotes/origin/trunk@11934)
-	M	pom.xml
-r11673 = 3c23f8852cb7ec1d9c5bc738a38228dd6992a4c0 (refs/remotes/origin/trunk@11934)
-	M	latex-maven-plugin/pom.xml
-	A	latex-maven-plugin/src/it/test-with-common/goals.txt
-	A	latex-maven-plugin/src/it/test-with-common/src/main/latex/sample/sample.bib
-	A	latex-maven-plugin/src/it/test-with-common/src/main/latex/sample/sample.tex
-	A	latex-maven-plugin/src/it/test-with-common/src/main/latex/common/foo.txt
-	A	latex-maven-plugin/src/it/test-with-common/pom.xml
-	A	latex-maven-plugin/src/it/test-with-common/validate.groovy
-r11675 = 21bcd40cddb8a3f7de28b6714e8e606d391adb21 (refs/remotes/origin/trunk@11934)
-	M	latex-maven-plugin/pom.xml
-r11677 = 2ad32dbba002b1d416dfbc6a829accd451d563b6 (refs/remotes/origin/trunk@11934)
-	M	latex-maven-plugin/pom.xml
-r11679 = 61132829fa7e32c6baba76debf0edd491f7869fe (refs/remotes/origin/trunk@11934)
-	M	pom.xml
-r11680 = d09c257d3ba1f797dc2b74362f39fae1aa66e48b (refs/remotes/origin/trunk@11934)
-	M	latex-maven-plugin/src/main/java/org/codehaus/mojo/latex/LaTeXMojo.java
-r11681 = 378aab2c1c63b81362c7217d5d735ea16c5812d3 (refs/remotes/origin/trunk@11934)
-Found branch parent: (refs/remotes/origin/trunk) 378aab2c1c63b81362c7217d5d735ea16c5812d3
-Following parent with do_switch
-	M	pom.xml
-	M	latex-maven-plugin/src/site/apt/index.apt
-Successfully followed parent
-r11936 = afb3b2e89aa32a381b1bd8c45494508cc1b1e5c6 (refs/remotes/origin/trunk)
-	M	pom.xml
-	M	latex-maven-plugin/pom.xml
-r11949 = 178ea94fa1f0b254f8306b434b66a44921e2c56a (refs/remotes/origin/trunk)
-	M	latex-maven-plugin/pom.xml
-r11950 = 831668caf4144efbeea2d83e19f1eebaf4dbcd3f (refs/remotes/origin/trunk)
-	M	pom.xml
-	M	latex-maven-plugin/pom.xml
-	M	latex-maven-archetype/pom.xml
-r11951 = ef9881db794c0bb158196fb996a578d56cee5256 (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/latex-maven => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/latex-maven-1.0, 11951
-Found branch parent: (refs/remotes/tags/latex-maven-1.0) ef9881db794c0bb158196fb996a578d56cee5256
-Following parent with do_switch
-Successfully followed parent
-r11952 = 09145ef94e3fd791fb1a0934120e6dbaca1f2f7f (refs/remotes/tags/latex-maven-1.0)
-	M	pom.xml
-	M	latex-maven-plugin/pom.xml
-	M	latex-maven-archetype/pom.xml
-r11953 = b99d83658e4c74d900e4206d62ec398365f89876 (refs/remotes/origin/trunk)
-	M	latex-maven-archetype/pom.xml
-	M	pom.xml
-	M	latex-maven-plugin/pom.xml
-r11954 = 37228e8efd574950e2a2062ebe82ad5010c8d438 (refs/remotes/origin/trunk)
-	M	latex-maven-plugin/pom.xml
-r11956 = 36b170fcdcfd866cb309de142737205b8c895959 (refs/remotes/origin/trunk)
-	M	latex-maven-plugin/pom.xml
-	M	latex-maven-archetype/pom.xml
-	M	pom.xml
-r11957 = acf9c637f21d417f2e3391ac05e7268c766231a8 (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/latex-maven => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/latex-maven-1.0, 11957
-Found branch parent: (refs/remotes/tags/latex-maven-1.0) acf9c637f21d417f2e3391ac05e7268c766231a8
-Index mismatch: 48b9560046ade63b9bce20c7c9896ba83137ac26 != 87469853fb6d7f7e25c5ea5f5acee3a382da52ec
-rereading acf9c637f21d417f2e3391ac05e7268c766231a8
-Following parent with do_switch
-Successfully followed parent
-r11958 = a32f8c86591ede9a84ee11ae4d6f0016fdbc36cb (refs/remotes/tags/latex-maven-1.0)
-	M	latex-maven-plugin/pom.xml
-	M	latex-maven-archetype/pom.xml
-	M	pom.xml
-r11959 = bd72747f8be419bab6abf6a8ea3f871471b05604 (refs/remotes/origin/trunk)
-	M	latex-maven-plugin/src/main/java/org/codehaus/mojo/latex/LaTeXMojo.java
-r12162 = fa49e879211a32da30270df2a9d9df1d219db597 (refs/remotes/origin/trunk)
-	M	pom.xml
-r12557 = 6702b881487658dbc3424c913fa62c3c97c5c660 (refs/remotes/origin/trunk)
-	M	latex-maven-plugin/src/main/java/org/codehaus/mojo/latex/LaTeXMojo.java
-r13311 = ea061cf9a17a55dfdf4f6ac7f8128c65a280478f (refs/remotes/origin/trunk)
-	M	pom.xml
-r13312 = 39d510937f7ac5fdd679568e50bd6290e0449aaf (refs/remotes/origin/trunk)
-	M	latex-maven-plugin/src/main/java/org/codehaus/mojo/latex/LaTeXMojo.java
-r13313 = 25710522fcc031cf3ee2dc0305bceaa31fae8d93 (refs/remotes/origin/trunk)
-	M	latex-maven-plugin/src/main/java/org/codehaus/mojo/latex/LaTeXMojo.java
-	M	latex-maven-plugin/src/it/test-with-common/validate.groovy
-r13446 = a346725787c71d91f60e280b9aff1545d24fcf5b (refs/remotes/origin/trunk)
-	M	latex-maven-plugin/src/main/java/org/codehaus/mojo/latex/LaTeXMojo.java
-r13447 = b2ceaee57c7e354878577494bfeaef9a3ea4fd45 (refs/remotes/origin/trunk)
-	M	latex-maven-plugin/src/main/java/org/codehaus/mojo/latex/LaTeXMojo.java
-r13448 = e3e8a0d99ff1f302cb12ad1e083f8c2d2dd10fab (refs/remotes/origin/trunk)
-	M	latex-maven-plugin/pom.xml
-r13449 = a4fd6aaaed4f8544a57654e331845882c9886400 (refs/remotes/origin/trunk)
-	M	latex-maven-plugin/src/main/java/org/codehaus/mojo/latex/LaTeXMojo.java
-r13451 = 26b47ad07808467e67a23fb1e575059f8651fcf4 (refs/remotes/origin/trunk)
-	M	latex-maven-plugin/src/site/apt/index.apt
-r13474 = 57bc133f667381a9ae73f6664b6b82f853f0896e (refs/remotes/origin/trunk)
-	M	pom.xml
-	M	latex-maven-plugin/pom.xml
-	M	latex-maven-archetype/pom.xml
-r13475 = 911e6023fbb1271ac0e6be77d01006cbf0688249 (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/latex-maven => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/latex-maven-1.1, 13475
-Found branch parent: (refs/remotes/tags/latex-maven-1.1) 911e6023fbb1271ac0e6be77d01006cbf0688249
-Following parent with do_switch
-Successfully followed parent
-r13476 = ebf7c7e3094ea15d3c0bd08924cdefc2a314fe04 (refs/remotes/tags/latex-maven-1.1)
-	M	pom.xml
-	M	latex-maven-plugin/pom.xml
-	M	latex-maven-archetype/pom.xml
-r13477 = 893e5f15fad2c1b1edb7f294c699b750d806dfbb (refs/remotes/origin/trunk)
-	M	latex-maven-plugin/src/main/java/org/codehaus/mojo/latex/LaTeXMojo.java
-r13511 = d89058f9746e6d7d1bfcb1a0684fbe8741f6f11f (refs/remotes/origin/trunk)
-	M	latex-maven-plugin/src/main/java/org/codehaus/mojo/latex/LaTeXMojo.java
-r13767 = 2e8286be63d6f8621fc767ef441289b80cdd8c82 (refs/remotes/origin/trunk)
-	M	pom.xml
-r13768 = 147ad750d80905d3eef0f1057f74f7f277697be7 (refs/remotes/origin/trunk)
-branch_from: /tags => /tags/latex-maven-1.0
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/latex-maven-1.0 => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/latex-maven-1.0, 15256
-Found branch parent: (refs/remotes/tags/latex-maven-1.0) a32f8c86591ede9a84ee11ae4d6f0016fdbc36cb
-Following parent with do_switch
-Successfully followed parent
-r15258 = c2607a2b7fb8c9c8e4406dd57883bc6b5b5fd1f0 (refs/remotes/tags/latex-maven-1.0)
-branch_from: /tags => /tags/latex-maven-1.1
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/latex-maven-1.1 => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/latex-maven-1.1, 15256
-Found branch parent: (refs/remotes/tags/latex-maven-1.1) ebf7c7e3094ea15d3c0bd08924cdefc2a314fe04
-Following parent with do_switch
-Successfully followed parent
-r15258 = e639542c3287936f95c7003139440bee109bf064 (refs/remotes/tags/latex-maven-1.1)
-	M	pom.xml
-r17598 = efd010f6e6b9d3ebcc0fe7ae357be1492b3b3fd5 (refs/remotes/origin/trunk)
-	M	pom.xml
-r17599 = 481612d72bb93eb3577ca16c987c10a09e1f281d (refs/remotes/origin/trunk)
-Checked out HEAD:
-  file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/latex-maven r17599
-Fixing tags
-Trying to find ancestor for a32f8c86591ede9a84ee11ae4d6f0016fdbc36cb
-tag has diverged: latex-maven-1.0
-create the annotated tag refs/remotes/tags/latex-maven-1.0
-Trying to find ancestor for 911e6023fbb1271ac0e6be77d01006cbf0688249
-create the annotated tag refs/remotes/tags/latex-maven-1.1
-create local branches out of svn branches
-remove merged branches
-Removing refs/heads/master... 
-481612d72bb93eb3577ca16c987c10a09e1f281d
-Branche origin/trunk supprimée (précédemment 481612d).
-Branche origin/trunk@11934 supprimée (précédemment 378aab2).
-OK. Removed refs/heads/master
-Removing refs/heads/origin/trunk... 
-Removing refs/heads/origin/trunk@11934... 
-Let's create the GH repo for latex-maven and push onto it
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{
-  "id": 35780543,
-  "name": "latex-maven",
-  "full_name": "mojohaus/latex-maven",
-  "owner": {
-    "login": "mojohaus",
-    "id": 11403816,
-    "avatar_url": "https://avatars.githubusercontent.com/u/11403816?v=3",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/mojohaus",
-    "html_url": "https://github.com/mojohaus",
-    "followers_url": "https://api.github.com/users/mojohaus/followers",
-    "following_url": "https://api.github.com/users/mojohaus/following{/other_user}",
-    "gists_url": "https://api.github.com/users/mojohaus/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/mojohaus/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/mojohaus/subscriptions",
-    "organizations_url": "https://api.github.com/users/mojohaus/orgs",
-    "repos_url": "https://api.github.com/users/mojohaus/repos",
-    "events_url": "https://api.github.com/users/mojohaus/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/mojohaus/received_events",
-    "type": "Organization",
-    "site_admin": false
-  },
-  "private": false,
-  "html_url": "https://github.com/mojohaus/latex-maven",
-  "description": null,
-  "fork": false,
-  "url": "https://api.github.com/repos/mojohaus/latex-maven",
-  "forks_url": "https://api.github.com/repos/mojohaus/latex-maven/forks",
-  "keys_url": "https://api.github.com/repos/mojohaus/latex-maven/keys{/key_id}",
-  "collaborators_url": "https://api.github.com/repos/mojohaus/latex-maven/collaborators{/collaborator}",
-  "teams_url": "https://api.github.com/repos/mojohaus/latex-maven/teams",
-  "hooks_url": "https://api.github.com/repos/mojohaus/latex-maven/hooks",
-  "issue_events_url": "https://api.github.com/repos/mojohaus/latex-maven/issues/events{/number}",
-  "events_url": "https://api.github.com/repos/mojohaus/latex-maven/events",
-  "assignees_url": "https://api.github.com/repos/mojohaus/latex-maven/assignees{/user}",
-  "branches_url": "https://api.github.com/repos/mojohaus/latex-maven/branches{/branch}",
-  "tags_url": "https://api.github.com/repos/mojohaus/latex-maven/tags",
-  "blobs_url": "https://api.github.com/repos/mojohaus/latex-maven/git/blobs{/sha}",
-  "git_tags_url": "https://api.github.com/repos/mojohaus/latex-maven/git/tags{/sha}",
-  "git_refs_url": "https://api.github.com/repos/mojohaus/latex-maven/git/refs{/sha}",
-  "trees_url": "https://api.github.com/repos/mojohaus/latex-maven/git/trees{/sha}",
-  "statuses_url": "https://api.github.com/repos/mojohaus/latex-maven/statuses/{sha}",
-  "languages_url": "https://api.github.com/repos/mojohaus/latex-maven/languages",
-  "stargazers_url": "https://api.github.com/repos/mojohaus/latex-maven/stargazers",
-  "contributors_url": "https://api.github.com/repos/mojohaus/latex-maven/contributors",
-  "subscribers_url": "https://api.github.com/repos/mojohaus/latex-maven/subscribers",
-  "subscription_url": "https://api.github.com/repos/mojohaus/latex-maven/subscription",
-  "commits_url": "https://api.github.com/repos/mojohaus/latex-maven/commits{/sha}",
-  "git_commits_url": "https://api.github.com/repos/mojohaus/latex-maven/git/commits{/sha}",
-  "comments_url": "https://api.github.com/repos/mojohaus/latex-maven/comments{/number}",
-  "issue_comment_url": "https://api.github.com/repos/mojohaus/latex-maven/issues/comments{/number}",
-  "contents_url": "https://api.github.com/repos/mojohaus/latex-maven/contents/{+path}",
-  "compare_url": "https://api.github.com/repos/mojohaus/latex-maven/compare/{base}...{head}",
-  "merges_url": "https://api.github.com/repos/mojohaus/latex-maven/merges",
-  "archive_url": "https://api.github.com/repos/mojohaus/latex-maven/{archive_format}{/ref}",
-  "downloads_url": "https://api.github.com/repos/mojohaus/latex-maven/downloads",
-  "issues_url": "https://api.github.com/repos/mojohaus/latex-maven/issues{/number}",
-  "pulls_url": "https://api.github.com/repos/mojohaus/latex-maven/pulls{/number}",
-  "milestones_url": "https://api.github.com/repos/mojohaus/latex-maven/milestones{/number}",
-  "notifications_url": "https://api.github.com/repos/mojohaus/latex-maven/notifications100  6141  100  6118  100    23   6732     25 --:--:-- --:--:-- --:--:--  6730
-{?since,all,participating}",
-  "labels_url": "https://api.github.com/repos/mojohaus/latex-maven/labels{/name}",
-  "releases_url": "https://api.github.com/repos/mojohaus/latex-maven/releases{/id}",
-  "created_at": "2015-05-17T19:55:05Z",
-  "updated_at": "2015-05-17T19:55:05Z",
-  "pushed_at": "2015-05-17T19:55:05Z",
-  "git_url": "git://github.com/mojohaus/latex-maven.git",
-  "ssh_url": "git@github.com:mojohaus/latex-maven.git",
-  "clone_url": "https://github.com/mojohaus/latex-maven.git",
-  "svn_url": "https://github.com/mojohaus/latex-maven",
-  "homepage": null,
-  "size": 0,
-  "stargazers_count": 0,
-  "watchers_count": 0,
-  "language": null,
-  "has_issues": true,
-  "has_downloads": true,
-  "has_wiki": true,
-  "has_pages": false,
-  "forks_count": 0,
-  "mirror_url": null,
-  "open_issues_count": 0,
-  "forks": 0,
-  "open_issues": 0,
-  "watchers": 0,
-  "default_branch": "master",
-  "permissions": {
-    "admin": true,
-    "push": true,
-    "pull": true
-  },
-  "organization": {
-    "login": "mojohaus",
-    "id": 11403816,
-    "avatar_url": "https://avatars.githubusercontent.com/u/11403816?v=3",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/mojohaus",
-    "html_url": "https://github.com/mojohaus",
-    "followers_url": "https://api.github.com/users/mojohaus/followers",
-    "following_url": "https://api.github.com/users/mojohaus/following{/other_user}",
-    "gists_url": "https://api.github.com/users/mojohaus/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/mojohaus/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/mojohaus/subscriptions",
-    "organizations_url": "https://api.github.com/users/mojohaus/orgs",
-    "repos_url": "https://api.github.com/users/mojohaus/repos",
-    "events_url": "https://api.github.com/users/mojohaus/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/mojohaus/received_events",
-    "type": "Organization",
-    "site_admin": false
-  },
-  "network_count": 0,
-  "subscribers_count": 22
-}
-To git@github.com:mojohaus/latex-maven.git
- * [new branch]      master -> master
-To git@github.com:mojohaus/latex-maven.git
- * [new tag]         latex-maven-1.0 -> latex-maven-1.0
- * [new tag]         latex-maven-1.1 -> latex-maven-1.1
-Finished processing latex-maven
-/home/tiste/MOJOHAUS-TO-GIT/convert-to-git
-################################################
-################################################
-# Processing cassandra-maven-plugin
-################################################
-################################################
-dimanche 17 mai 2015, 21:55:10 (UTC+0200)
-
-Creating repo cassandra-maven-plugin
-Dépôt Git vide initialisé dans /home/tiste/MOJOHAUS-TO-GIT/convert-to-git/cassandra-maven-plugin/.git/
-Tags specified. Putting 'tags/{cassandra-maven-plugin-0.7.0-1,cassandra-maven-plugin-0.7.2-1,cassandra-maven-plugin-0.7.4-1,cassandra-maven-plugin-0.8.0-1,cassandra-maven-plugin-0.8.6-1,cassandra-maven-plugin-1.0.0-1,cassandra-maven-plugin-1.1.0-1,cassandra-maven-plugin-1.2.0-1,cassandra-maven-plugin-1.2.1-1,cassandra-maven-plugin-2.0.0-1}:refs/remotes/tags/*'
-Fetch data
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/sandbox/cassandra-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/cassandra-maven-plugin, 13568
-Initializing parent: refs/remotes/origin/trunk@13568
-W: Ignoring error from SVN, path probably does not exist: (160013): Le système de fichiers ne contient pas cet élément: Fichier non trouvé : révision 101, chemin '/trunk/sandbox/cassandra-maven-plugin'
-W: Do not be alarmed at the above message git-svn is just searching aggressively for old history.
-This may take a while on large repositories
-Checked through r101Checked through r201Checked through r301Checked through r401Checked through r501Checked through r601Checked through r701Checked through r801Checked through r901Checked through r1001Checked through r1101Checked through r1201Checked through r1301Checked through r1401Checked through r1501Checked through r1601Checked through r1701Checked through r1801Checked through r1901Checked through r2001Checked through r2101Checked through r2201Checked through r2301Checked through r2401Checked through r2501Checked through r2601Checked through r2701Checked through r2801Checked through r2901Checked through r3001Checked through r3101Checked through r3201Checked through r3301Checked through r3401Checked through r3501Checked through r3601Checked through r3701Checked through r3801Checked through r3901Checked through r4001Checked through r4101Checked through r4201Checked through r4301Checked through r4401Checked through r4501Checked through r4601Checked through r4701Checked through r4801Checked through r4901Checked through r5001Checked through r5101Checked through r5201Checked through r5301Checked through r5401Checked through r5501Checked through r5601Checked through r5701Checked through r5801Checked through r5901Checked through r6001Checked through r6101Checked through r6201Checked through r6301Checked through r6401Checked through r6501Checked through r6601Checked through r6701Checked through r6801Checked through r6901Checked through r7001Checked through r7101Checked through r7201Checked through r7301Checked through r7401Checked through r7501Checked through r7601Checked through r7701Checked through r7801Checked through r7901Checked through r8001Checked through r8101Checked through r8201Checked through r8301Checked through r8401Checked through r8501Checked through r8601Checked through r8701Checked through r8801Checked through r8901Checked through r9001Checked through r9101Checked through r9201Checked through r9301Checked through r9401Checked through r9501Checked through r9601Checked through r9701Checked through r9801Checked through r9901Checked through r10001Checked through r10101Checked through r10201Checked through r10301Checked through r10401Checked through r10501Checked through r10601Checked through r10701Checked through r10801Checked through r10901Checked through r11001Checked through r11101Checked through r11201Checked through r11301Checked through r11401Checked through r11501Checked through r11601Checked through r11701Checked through r11801Checked through r11901Checked through r12001Checked through r12101Checked through r12201Checked through r12301Checked through r12401Checked through r12501Checked through r12601Checked through r12701Checked through r12801Checked through r12901Checked through r13001Checked through r13101Checked through r13201Checked through r13301Checked through r13401Checked through r13501r13530 = d53d49100eac4a257255bd99d920a502fcdd4a62 (refs/remotes/origin/trunk@13568)
-	A	src/main/java/org/codehaus/mojo/cassandra/StartCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/LoadCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/MavenLogOutputStream.java
-	A	src/main/java/org/codehaus/mojo/cassandra/FlushCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/CassandraMonitor.java
-	A	src/main/java/org/codehaus/mojo/cassandra/DeleteCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/RepairCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/AbstractCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/RunCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/StopCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/CompactCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/CleanupCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/ConsoleScanner.java
-	A	src/main/java/org/codehaus/mojo/cassandra/Utils.java
-	A	src/main/resources/log4j.properties
-	A	src/main/resources/cassandra.yaml
-	A	src/site/site.xml
-	A	src/site/apt/usage.apt.vm
-	A	src/site/apt/index.apt
-	A	src/site/apt/examples/integration-tests.apt.vm
-	A	src/site/apt/examples/developing-webapp.apt.vm
-	A	src/it/smoke/src/cassandra/cli/load.script
-	A	src/it/smoke/src/test/java/smoke/SmokeIT.java
-	A	src/it/smoke/pom.xml
-	A	src/it/settings.xml
-	A	pom.xml
-r13532 = 3268e35fc9befdbc2a22dfad2a53ed2acb0f752a (refs/remotes/origin/trunk@13568)
-	M	pom.xml
-r13533 = 71c618bc359d571ccd35d05d127f395b2486eee0 (refs/remotes/origin/trunk@13568)
-	M	pom.xml
-r13534 = 9153618345ff35660ac2c8cd422b42ff0e79ef59 (refs/remotes/origin/trunk@13568)
-	M	src/site/apt/index.apt
-	M	src/site/apt/examples/developing-webapp.apt.vm
-	M	src/site/apt/examples/integration-tests.apt.vm
-	M	src/site/apt/usage.apt.vm
-r13543 = 955d10b2e3d53782f45c3ba7f6f3c9f4952093ea (refs/remotes/origin/trunk@13568)
-	M	src/it/smoke/pom.xml
-	M	src/main/java/org/codehaus/mojo/cassandra/Utils.java
-	M	src/main/java/org/codehaus/mojo/cassandra/StartCassandraMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/LoadCassandraMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/RunCassandraMojo.java
-r13544 = cb6455d235ef76386010f575f23453e966e27027 (refs/remotes/origin/trunk@13568)
-	M	src/site/apt/examples/integration-tests.apt.vm
-	M	src/site/apt/examples/developing-webapp.apt.vm
-r13545 = 12301119a3b6f906b31ce5998465e033d9a48af5 (refs/remotes/origin/trunk@13568)
-	M	src/main/java/org/codehaus/mojo/cassandra/StartCassandraMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/RunCassandraMojo.java
-r13546 = 8ff0b9182e8a1390520c4d203db143b067a9fd5c (refs/remotes/origin/trunk@13568)
-Found branch parent: (refs/remotes/origin/trunk) 8ff0b9182e8a1390520c4d203db143b067a9fd5c
-Following parent with do_switch
-Successfully followed parent
-r13569 = 8eeaea672e9d19be199c9916ca0f4e07f8986fce (refs/remotes/origin/trunk)
-	M	pom.xml
-r13570 = 41567b2ef4b63b8ec65867a391fd70b93cd89e20 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/RunCassandraMojo.java
-r13571 = fcb31936c1d07e3c649a8278ff5580a8f42e8e74 (refs/remotes/origin/trunk)
-	M	src/site/apt/usage.apt.vm
-	M	src/site/apt/examples/integration-tests.apt.vm
-	M	src/site/apt/examples/developing-webapp.apt.vm
-r13572 = d1c2f63a26a533c28e6d2a987ba7e91a6144ec52 (refs/remotes/origin/trunk)
-	M	pom.xml
-r13573 = 433cba02f309e919d5e45d6adeb5da0eac379f09 (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/cassandra-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.7.0-1, 13573
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-0.7.0-1) 433cba02f309e919d5e45d6adeb5da0eac379f09
-Following parent with do_switch
-Successfully followed parent
-r13574 = 4b1e4e60460c37284571768ea503d32ef7cd904d (refs/remotes/tags/cassandra-maven-plugin-0.7.0-1)
-	M	pom.xml
-r13575 = 2c510dc58fadb126005d35003c8ad1cb16e4c820 (refs/remotes/origin/trunk)
-	M	pom.xml
-r13580 = 5d8cf966eaabd18082429ba9a7a55bbb87279f30 (refs/remotes/origin/trunk)
-	M	pom.xml
-r13581 = 8f31e9641e926184dae5d19a9868ab1701c3155a (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/cassandra-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.7.0-1, 13581
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-0.7.0-1) 8f31e9641e926184dae5d19a9868ab1701c3155a
-Index mismatch: d7602f1b63f695c3ab3237d1eb04d0f910955fa1 != de1eb07d26799d3b1ee463eb1c6bc96573486f7d
-rereading 8f31e9641e926184dae5d19a9868ab1701c3155a
-Following parent with do_switch
-Successfully followed parent
-r13582 = 0d8f6651dd8827fc9058135e60efaef0bd6f2b93 (refs/remotes/tags/cassandra-maven-plugin-0.7.0-1)
-	M	pom.xml
-r13583 = 15e3f9d7de6651345fca5ae804ef16d6eebad43f (refs/remotes/origin/trunk)
-	M	pom.xml
-r13611 = 9ee64ef518d387a0a9669f1f310081ca864e25f4 (refs/remotes/origin/trunk)
-	M	pom.xml
-r13618 = 9a61284fbd87cb07e66a1644df5c9f04efa3824f (refs/remotes/origin/trunk)
-	M	pom.xml
-r13619 = 611319180e8524d8b2c855e804d1b377f84e1afe (refs/remotes/origin/trunk)
-	A	src/main/java/org/codehaus/mojo/cassandra/DropColumnFamiliesMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/AbstractSchemaCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/TruncateCassandraMojo.java
-r13621 = 546ceb031a5d07a653b2907e3bd4c2076d49154a (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/DropColumnFamiliesMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractSchemaCassandraMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/TruncateCassandraMojo.java
-r13622 = 1d8bbf1735665231d16057c8d18d812ab74ab539 (refs/remotes/origin/trunk)
-	M	src/it/smoke/pom.xml
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractCassandraMojo.java
-	M	pom.xml
-r13627 = 52dae78761b9940c3e989b610144ea6e3d358e28 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/DropColumnFamiliesMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/TruncateCassandraMojo.java
-r13628 = 57247341869017acad3781e52286e168b469185a (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/TruncateCassandraMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/DropColumnFamiliesMojo.java
-r13629 = 149ef4e6572a011ce93b2daab23d531baf763904 (refs/remotes/origin/trunk)
-	M	pom.xml
-r13630 = f86610aad7b821e69b8c6644e709dd46ed202112 (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/cassandra-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.7.2-1, 13630
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-0.7.2-1) f86610aad7b821e69b8c6644e709dd46ed202112
-Following parent with do_switch
-Successfully followed parent
-r13631 = e4c18cf725c9ae657e1c0bd8ab4ce141779d9680 (refs/remotes/tags/cassandra-maven-plugin-0.7.2-1)
-	M	pom.xml
-r13632 = 6818f44e36d35187277cafc94b31ec0e05df9468 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/DropColumnFamiliesMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/TruncateCassandraMojo.java
-r13635 = 135d84bc64ca7a2330e7e32f2c3d4859f59d4be6 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/DropColumnFamiliesMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/TruncateCassandraMojo.java
-r13775 = 5a512efd523bd429300a026daa38a599625488ff (refs/remotes/origin/trunk)
-	M	pom.xml
-r13776 = 7596fc0e827a4c0f4818e1e53a6483f0a8cf05e1 (refs/remotes/origin/trunk)
-	M	pom.xml
-r13782 = d8ed05bbf2532326d268bbd612d512cb6130ca11 (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/cassandra-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.7.4-1, 13782
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-0.7.4-1) d8ed05bbf2532326d268bbd612d512cb6130ca11
-Following parent with do_switch
-Successfully followed parent
-r13783 = 779bb16f6d56b5b413a894a8339154fc07064edb (refs/remotes/tags/cassandra-maven-plugin-0.7.4-1)
-	M	pom.xml
-r13784 = e89b198e89bd383d0547e37143eb48cc5d82f89c (refs/remotes/origin/trunk)
-	M	pom.xml
-r13787 = cdb9bb1dc3ecf726855463f01ae0079ed5bccb73 (refs/remotes/origin/trunk)
-	M	pom.xml
-	M	src/main/java/org/codehaus/mojo/cassandra/StopCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/StopCassandraClusterMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/Utils.java
-	A	src/main/java/org/codehaus/mojo/cassandra/StartCassandraClusterMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/CassandraMonitor.java
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractCassandraMojo.java
-r14155 = 5174961a94fa1090667bd43b229f186c194afc69 (refs/remotes/origin/trunk)
-	M	src/it/smoke/src/cassandra/cli/load.script
-	M	src/main/resources/cassandra.yaml
-	M	src/main/java/org/codehaus/mojo/cassandra/DropColumnFamiliesMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractSchemaCassandraMojo.java
-	M	pom.xml
-r14156 = 87f93b36953f27255923a6573ea7848648ffe5dd (refs/remotes/origin/trunk)
-	M	pom.xml
-r14157 = 2e0e18fb82b1ce9df1075ffbad47303d8a6e65e3 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/StartCassandraMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/StartCassandraClusterMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/RunCassandraMojo.java
-r14158 = 7b78093aa2ed468151ad88d6a7fa59df9e28e87e (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractCassandraMojo.java
-r14159 = ffb4d748e9fb62c96bc0eadbda70807e82736a2f (refs/remotes/origin/trunk)
-	M	src/site/apt/index.apt
-r14160 = 43afdc93ef715f5e27bfe3443450ddb86997ded2 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractCassandraMojo.java
-	M	src/site/apt/examples/integration-tests.apt.vm
-	M	src/site/apt/examples/developing-webapp.apt.vm
-	M	src/site/apt/usage.apt.vm
-	M	src/site/apt/index.apt
-r14161 = a54e5ef104475960a402606b44124132ea013ef0 (refs/remotes/origin/trunk)
-	M	pom.xml
-r14162 = fc32798b1e5bbca8ff6c606aef1ed911b8cfe758 (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/cassandra-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.8.0-1, 14162
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-0.8.0-1) fc32798b1e5bbca8ff6c606aef1ed911b8cfe758
-Following parent with do_switch
-Successfully followed parent
-r14163 = 714b280d5c290eb5be0532432b9ed27d286e4da0 (refs/remotes/tags/cassandra-maven-plugin-0.8.0-1)
-	M	pom.xml
-r14164 = 8138fb88ea3715766641059c95100c410fea135b (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractCassandraMojo.java
-r14192 = 343705c92de15f844002d844f92972199db76bea (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractCassandraMojo.java
-r14224 = 7f008f361497bc9a71fb705e3220d7c93f85c683 (refs/remotes/origin/trunk)
-	A	src/main/java/org/codehaus/mojo/cassandra/ThriftApiOperation.java
-	M	src/main/java/org/codehaus/mojo/cassandra/DropColumnFamiliesMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractSchemaCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/CqlExecCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/ThriftApiExecutionException.java
-	M	src/main/java/org/codehaus/mojo/cassandra/Utils.java
-r14225 = 94ab0a2350a7ce0bed5234414ddd7aaa416db1e6 (refs/remotes/origin/trunk)
-	M	src/site/apt/index.apt
-r14226 = 9369b9f8eb635ff5838a933b142b1c0731f4cf63 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/CqlExecCassandraMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/Utils.java
-r14229 = e6e772469c43ec9aa64df2953feeda2fc043c4d3 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/CqlExecCassandraMojo.java
-	M	pom.xml
-r14676 = 8fcfd4098952223969fdd1a080f2d78f10ba7be0 (refs/remotes/origin/trunk)
-	M	src/main/resources/log4j.properties
-	M	src/main/java/org/codehaus/mojo/cassandra/CqlExecCassandraMojo.java
-r14703 = 57c54370687b1819fe0ce1ccf733983e15dae9e7 (refs/remotes/origin/trunk)
-	M	src/main/resources/log4j.properties
-r14704 = 4c297ca16a2eaf40e415da8a8883ebdb9cf5998c (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/CqlExecCassandraMojo.java
-r14706 = 8b2365baba9007d66526beae0431ad3c0d9884f0 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/CqlExecCassandraMojo.java
-r14731 = 564642ae3789c22fd52012ae58f7d20d37776184 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/CqlExecCassandraMojo.java
-r14732 = df2266640be897035e3d04e852a0f239be428770 (refs/remotes/origin/trunk)
-	M	pom.xml
-r14745 = 2ffc1930fe98433c7092d40f27537cafdee6b374 (refs/remotes/origin/trunk)
-	M	pom.xml
-r14746 = 71ab96d74b1584108b8e2957918916d01e1da9ab (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/cassandra-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.8.6-1, 14746
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-0.8.6-1) 71ab96d74b1584108b8e2957918916d01e1da9ab
-Following parent with do_switch
-Successfully followed parent
-r14747 = 5c31e092a5bf22866c81c9e232ddf7930ac9f577 (refs/remotes/tags/cassandra-maven-plugin-0.8.6-1)
-	M	pom.xml
-r14748 = 41defe1fd65e13b887b13f3c7220a2ccc4320ed6 (refs/remotes/origin/trunk)
-	M	src/main/resources/cassandra.yaml
-	M	pom.xml
-r14766 = 970094e81fd40f49e8831ad57997ae0c321b7601 (refs/remotes/origin/trunk)
-	M	pom.xml
-r14814 = e7c691405a3a47a19bd8194bc974688ea8d9f5d2 (refs/remotes/origin/trunk)
-	M	pom.xml
-r14816 = 54d005e35ebcaf2ae2ee80fa780281aa1ab7c628 (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/cassandra-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-1.0.0-1, 14816
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-1.0.0-1) 54d005e35ebcaf2ae2ee80fa780281aa1ab7c628
-Following parent with do_switch
-Successfully followed parent
-r14817 = b2ed7639b120fc4dab261cb2ed37a6f5c414128e (refs/remotes/tags/cassandra-maven-plugin-1.0.0-1)
-	M	pom.xml
-r14818 = ead9bbc5c27c6ed42b093562c3af8bb59b21fcc9 (refs/remotes/origin/trunk)
-branch_from: /tags => /tags/cassandra-maven-plugin-0.8.0-1
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.8.0-1 => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.8.0-1, 15256
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-0.8.0-1) 714b280d5c290eb5be0532432b9ed27d286e4da0
-Following parent with do_switch
-Successfully followed parent
-r15258 = 41f2b31e50de9276485b8fcfa81141122dec0fdc (refs/remotes/tags/cassandra-maven-plugin-0.8.0-1)
-branch_from: /tags => /tags/cassandra-maven-plugin-0.7.0-1
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.7.0-1 => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.7.0-1, 15256
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-0.7.0-1) 0d8f6651dd8827fc9058135e60efaef0bd6f2b93
-Following parent with do_switch
-Successfully followed parent
-r15258 = b4d18b4d773799df03de8436e2df525f8dc333f7 (refs/remotes/tags/cassandra-maven-plugin-0.7.0-1)
-branch_from: /tags => /tags/cassandra-maven-plugin-1.0.0-1
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-1.0.0-1 => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-1.0.0-1, 15256
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-1.0.0-1) b2ed7639b120fc4dab261cb2ed37a6f5c414128e
-Following parent with do_switch
-Successfully followed parent
-r15258 = d64a75303996ea72ec7db77a1bbcbb10d8d837f9 (refs/remotes/tags/cassandra-maven-plugin-1.0.0-1)
-branch_from: /tags => /tags/cassandra-maven-plugin-0.7.4-1
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.7.4-1 => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.7.4-1, 15256
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-0.7.4-1) 779bb16f6d56b5b413a894a8339154fc07064edb
-Following parent with do_switch
-Successfully followed parent
-r15258 = 6c8ba731ca10db3a778ad3a910e796094038c498 (refs/remotes/tags/cassandra-maven-plugin-0.7.4-1)
-branch_from: /tags => /tags/cassandra-maven-plugin-0.7.2-1
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.7.2-1 => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.7.2-1, 15256
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-0.7.2-1) e4c18cf725c9ae657e1c0bd8ab4ce141779d9680
-Following parent with do_switch
-Successfully followed parent
-r15258 = 4cc692a2e1306b88ebc6aa396acb4aa44a0f48af (refs/remotes/tags/cassandra-maven-plugin-0.7.2-1)
-branch_from: /tags => /tags/cassandra-maven-plugin-0.8.6-1
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.8.6-1 => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-0.8.6-1, 15256
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-0.8.6-1) 5c31e092a5bf22866c81c9e232ddf7930ac9f577
-Following parent with do_switch
-Successfully followed parent
-r15258 = d15eea898ad815dbdf3d0dfb0a21a3b2a6444405 (refs/remotes/tags/cassandra-maven-plugin-0.8.6-1)
-	M	src/it/smoke/pom.xml
-r15917 = 854fbb49d3c0da926fc6ef3a0fafad359bdfe7ae (refs/remotes/origin/trunk)
-	M	src/it/smoke/src/cassandra/cli/load.script
-	M	src/it/smoke/src/test/java/smoke/SmokeIT.java
-	M	src/main/resources/cassandra.yaml
-	M	pom.xml
-r16514 = 8a5ade6c3ab584a3f12a4a8473cb0dfd929bd63b (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractCassandraMojo.java
-	A	src/it/spaces in path/src/cassandra/cli/load.script
-	A	src/it/spaces in path/src/test/java/smoke/SmokeIT.java
-	A	src/it/spaces in path/pom.xml
-r16515 = 368b8dc588f0c1849f0be6f3a5fc39d053bf624b (refs/remotes/origin/trunk)
-	M	pom.xml
-r16516 = c110ace24b04a3b1c80b77089c4a6fa1b3a9cf84 (refs/remotes/origin/trunk)
-	M	pom.xml
-r16517 = 5bd98fd216d273184f31bf8f78133d9a009063f0 (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/cassandra-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-1.1.0-1, 16517
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-1.1.0-1) 5bd98fd216d273184f31bf8f78133d9a009063f0
-Following parent with do_switch
-Successfully followed parent
-r16518 = f853301665d8938f339fe634b665c9d7c17807a6 (refs/remotes/tags/cassandra-maven-plugin-1.1.0-1)
-	M	pom.xml
-r16519 = 2399c9953fdd860d96fc03ddf09b5d90e859232f (refs/remotes/origin/trunk)
-	M	src/main/resources/cassandra.yaml
-	M	src/main/java/org/codehaus/mojo/cassandra/CassandraMonitor.java
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractCassandraMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/CqlExecCassandraMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/TruncateCassandraMojo.java
-	M	pom.xml
-r17918 = e3b76a0b90407b067b53eb69ca9220df90c1a248 (refs/remotes/origin/trunk)
-	M	pom.xml
-r17919 = d73783b572882ccf2704e39ae944136029795c8c (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/cassandra-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-1.2.0-1, 17919
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-1.2.0-1) d73783b572882ccf2704e39ae944136029795c8c
-Following parent with do_switch
-Successfully followed parent
-r17920 = d61ae3f8130b5ddc581f12460ff2008fb3297b65 (refs/remotes/tags/cassandra-maven-plugin-1.2.0-1)
-	M	pom.xml
-r17921 = a8ff9185d1fe1e48ff53e92ff7d443f4123b1af7 (refs/remotes/origin/trunk)
-	M	pom.xml
-r17929 = 8a53dad1b2e43d26770897ad419fdffd20c26c9a (refs/remotes/origin/trunk)
-	M	pom.xml
-r17930 = 6914f2170bf5acee41ef997b8dd4aba3fcbd7716 (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/cassandra-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-1.2.1-1, 17930
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-1.2.1-1) 6914f2170bf5acee41ef997b8dd4aba3fcbd7716
-Following parent with do_switch
-Successfully followed parent
-r17931 = 25a387732fe2950c2ca289504e983d42db2320fd (refs/remotes/tags/cassandra-maven-plugin-1.2.1-1)
-	M	pom.xml
-r17932 = 7d9f916f7f0b9bc426566f50eb664fe390cd10fa (refs/remotes/origin/trunk)
-	M	pom.xml
-	M	src/it/spaces in path/pom.xml
-	M	src/it/smoke/pom.xml
-r18279 = 21228e82207e9157de76b4237721e036b1bdb018 (refs/remotes/origin/trunk)
-	M	pom.xml
-r18280 = a63f02b8b01e823084111ed18f0e08d0e2195ca3 (refs/remotes/origin/trunk)
-	M	src/main/resources/log4j.properties
-	M	src/it/smoke/pom.xml
-	M	pom.xml
-r18386 = 639da908bce7012bf5b03d82ee1668daf3886267 (refs/remotes/origin/trunk)
-	M	pom.xml
-r18387 = 3057857627620a6545d5e887eda3345fc6dc02db (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/RunCassandraMojo.java
-	A	src/main/java/org/codehaus/mojo/cassandra/LoadCassandraUnitDataSetMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/StartCassandraMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/StartCassandraClusterMojo.java
-	M	src/site/apt/index.apt
-	M	src/it/smoke/pom.xml
-	M	pom.xml
-r18388 = 8b68f8debdc3f478a8564551e0f221f503f7b685 (refs/remotes/origin/trunk)
-	M	pom.xml
-r18389 = 2c1d84fc9b4aa49e09a67d75ee17db74cbed06c6 (refs/remotes/origin/trunk)
-	A	src/it/smoke/src/test/resources/dataSet.xml
-r18390 = ddfc095f394563c2d8348464d75e3c10f313dbc3 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/LoadCassandraUnitDataSetMojo.java
-r18391 = d03ff1f2dc5d6d33fed48c5ace5b1502f33abcd1 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/StartCassandraMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/StartCassandraClusterMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/RunCassandraMojo.java
-r18392 = 3d1282e87acb913c4659deb4a309980380252dd1 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/LoadCassandraUnitDataSetMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/StartCassandraMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/StartCassandraClusterMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/RunCassandraMojo.java
-r18393 = fb7bd70c784be8703fd558d46944bbe4e20e9be8 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/ThriftApiOperation.java
-	M	src/main/java/org/codehaus/mojo/cassandra/CqlExecCassandraMojo.java
-	M	src/main/java/org/codehaus/mojo/cassandra/Utils.java
-	M	pom.xml
-r18394 = 78fa69f2fd9958fdfae28899e301286fb7f96f90 (refs/remotes/origin/trunk)
-	M	pom.xml
-r18395 = 9a294ffa7e86ef53f1bdabec30287fd0c425132a (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractCassandraMojo.java
-r18396 = ee9f64e957e994c5c198bc76fd6fc2acb7f9143c (refs/remotes/origin/trunk)
-	M	pom.xml
-r18397 = 9513235ce95e81ae076a6ba9b04803b19817bf00 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractCassandraMojo.java
-r18398 = b5d59d25f2ed9bd46d0d3fd022a133236fd13777 (refs/remotes/origin/trunk)
-	M	pom.xml
-r18399 = 76a4c1972093174df50ede60c5ea3aa874b484d6 (refs/remotes/origin/trunk)
-	M	pom.xml
-r18400 = 7daac1419575858d264b9292d060c088f0c8eacc (refs/remotes/origin/trunk)
-	M	pom.xml
-r18401 = 29da745b5475f29f8a2fbe46d0ca98382c966134 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/StartCassandraMojo.java
-r18402 = b4f56bf869da147162c8787d76f53c5bdf4e8ede (refs/remotes/origin/trunk)
-	M	pom.xml
-r18701 = 2140ad7195c6346e6797f8b8901003a7e9b614d4 (refs/remotes/origin/trunk)
-r18702 = 1a783bd761e7dbfa33b85aa69521ace66fb15e8c (refs/remotes/origin/trunk)
-	M	src/main/resources/cassandra.yaml
-	M	pom.xml
-r18747 = 7d4b199e211696ad84d4e4b960ca8497e73c38c8 (refs/remotes/origin/trunk)
-	M	pom.xml
-r18928 = 19b66a1fa574879b8c23e3eb0cfcf6fc4508e02c (refs/remotes/origin/trunk)
-	M	src/it/spaces in path/src/cassandra/cli/load.script
-r18929 = 2ec2775de34ac49488ccf3f5a5cb895b6c6860da (refs/remotes/origin/trunk)
-	M	src/it/smoke/src/test/java/smoke/SmokeIT.java
-	M	src/it/smoke/pom.xml
-	M	src/it/spaces in path/pom.xml
-	M	src/it/spaces in path/src/test/java/smoke/SmokeIT.java
-r18930 = e3eb3734d9a82ec01a4f2bdd989780d61f112d13 (refs/remotes/origin/trunk)
-	M	pom.xml
-r18987 = a8d94053c4e27a5204ecf5dee6609a99faa2b7e4 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractCassandraMojo.java
-r18988 = e8eb50ec654348dcbd94112035b7f643f22440d0 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/DeleteCassandraMojo.java
-r18989 = 42a0de12d7b450e869bcf69b125bcbafb7700632 (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractCassandraMojo.java
-r18990 = 155db40edf73b755adab2b217eaf7d1e03b963e3 (refs/remotes/origin/trunk)
-	M	pom.xml
-r18991 = b97d550566b428bb1d9cd2e755fde00212caafb1 (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/cassandra-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-2.0.0-1, 18991
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-2.0.0-1) b97d550566b428bb1d9cd2e755fde00212caafb1
-Following parent with do_switch
-Successfully followed parent
-r18992 = 0a4dbe6de3bbac38f3d7e6a9a406220c37943351 (refs/remotes/tags/cassandra-maven-plugin-2.0.0-1)
-	M	pom.xml
-r18993 = c45adca46e890894dcbde97a28278165aa79c8c6 (refs/remotes/origin/trunk)
-	M	pom.xml
-r18994 = 7c52eaf2c9e5f4868312910567750f57c1f1679d (refs/remotes/origin/trunk)
-	M	pom.xml
-r18996 = 54f81a4eb2809bb23b6bde942af6a4d66c0f1d9e (refs/remotes/origin/trunk)
-	M	pom.xml
-r18997 = 145aa90d69f72cecc1f3cc5557825b49998bad45 (refs/remotes/origin/trunk)
-	M	pom.xml
-r18998 = 1acf0afbd9530ac08a479f144b1526c49f364ff3 (refs/remotes/origin/trunk)
-Found possible branch point: file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/cassandra-maven-plugin => file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/tags/cassandra-maven-plugin-2.0.0-1, 18998
-Found branch parent: (refs/remotes/tags/cassandra-maven-plugin-2.0.0-1) 1acf0afbd9530ac08a479f144b1526c49f364ff3
-Index mismatch: a0ad3cd6c0afb1f6bd9457b509c4c60351927158 != 0f856f293d1c3f115196131b29fb3a6df63a066c
-rereading 1acf0afbd9530ac08a479f144b1526c49f364ff3
-Following parent with do_switch
-Successfully followed parent
-r18999 = 30467c3598240897e74c5c4ea171399de6791eb4 (refs/remotes/tags/cassandra-maven-plugin-2.0.0-1)
-	M	pom.xml
-r19000 = 558e1be708d7a1001a82f3872c3de472b6b62d8a (refs/remotes/origin/trunk)
-	M	src/main/java/org/codehaus/mojo/cassandra/CqlExecCassandraMojo.java
-r19362 = c304b3dca74e708005564eab2fe5a7697a40ad94 (refs/remotes/origin/trunk)
-	M	src/main/resources/cassandra.yaml
-	M	src/main/java/org/codehaus/mojo/cassandra/AbstractCassandraMojo.java
-	M	src/it/smoke/pom.xml
-	M	src/it/spaces in path/pom.xml
-	M	pom.xml
-r20134 = c1883a25668eb82a423f175a9a5c64d2b49c5a92 (refs/remotes/origin/trunk)
-Checked out HEAD:
-  file:///home/tiste/MOJOHAUS-TO-GIT/SVN-MOJO-WIP/trunk/mojo/cassandra-maven-plugin r20134
-Fixing tags
-Trying to find ancestor for 0d8f6651dd8827fc9058135e60efaef0bd6f2b93
-tag has diverged: cassandra-maven-plugin-0.7.0-1
-create the annotated tag refs/remotes/tags/cassandra-maven-plugin-0.7.0-1
-Trying to find ancestor for f86610aad7b821e69b8c6644e709dd46ed202112
-create the annotated tag refs/remotes/tags/cassandra-maven-plugin-0.7.2-1
-Trying to find ancestor for d8ed05bbf2532326d268bbd612d512cb6130ca11
-create the annotated tag refs/remotes/tags/cassandra-maven-plugin-0.7.4-1
-Trying to find ancestor for fc32798b1e5bbca8ff6c606aef1ed911b8cfe758
-create the annotated tag refs/remotes/tags/cassandra-maven-plugin-0.8.0-1
-Trying to find ancestor for 71ab96d74b1584108b8e2957918916d01e1da9ab
-create the annotated tag refs/remotes/tags/cassandra-maven-plugin-0.8.6-1
-Trying to find ancestor for 54d005e35ebcaf2ae2ee80fa780281aa1ab7c628
-create the annotated tag refs/remotes/tags/cassandra-maven-plugin-1.0.0-1
-Trying to find ancestor for 5bd98fd216d273184f31bf8f78133d9a009063f0
-create the annotated tag refs/remotes/tags/cassandra-maven-plugin-1.1.0-1
-Trying to find ancestor for d73783b572882ccf2704e39ae944136029795c8c
-create the annotated tag refs/remotes/tags/cassandra-maven-plugin-1.2.0-1
-Trying to find ancestor for 6914f2170bf5acee41ef997b8dd4aba3fcbd7716
-create the annotated tag refs/remotes/tags/cassandra-maven-plugin-1.2.1-1
-Trying to find ancestor for 30467c3598240897e74c5c4ea171399de6791eb4
-tag has diverged: cassandra-maven-plugin-2.0.0-1
-create the annotated tag refs/remotes/tags/cassandra-maven-plugin-2.0.0-1
-create local branches out of svn branches
-remove merged branches
-Removing refs/heads/master... 
-c1883a25668eb82a423f175a9a5c64d2b49c5a92
-Branche origin/trunk supprimée (précédemment c1883a2).
-Branche origin/trunk@13568 supprimée (précédemment 8ff0b91).
-OK. Removed refs/heads/master
-Removing refs/heads/origin/trunk... 
-Removing refs/heads/origin/trunk@13568... 
-Let's create the GH repo for cassandra-maven-plugin and push onto it
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  3  6625    3   205  100    34    234     38  0:00:28 --:--:--  0:00:28   234{
-  "id": 35780604,
-  "name": "cassandra-maven-plugin",
-  "full_name": "mojohaus/cassandra-maven-plugin",
-  "owner": {
-    "login": "mojohaus",
-    "id": 11403816,
-    "avatar_url": "https://avatars.githubusercontent.com/u/11403816?v=3",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/mojohaus",
-    "html_url": "https://github.com/mojohaus",
-    "followers_url": "https://api.github.com/users/mojohaus/followers",
-    "following_url": "https://api.github.com/users/mojohaus/following{/other_user}",
-    "gists_url": "https://api.github.com/users/mojohaus/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/mojohaus/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/mojohaus/subscriptions",
-    "organizations_url": "https://api.github.com/users/mojohaus/orgs",
-    "repos_url": "https://api.github.com/users/mojohaus/repos",
-    "events_url": "https://api.github.com/users/mojohaus/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/mojohaus/received_events",
-    "type": "Organization",
-    "site_admin": false
-  },
-  "private": false,
-  "html_url": "https://github.com/mojohaus/cassandra-maven-plugin",
-  "description": null,
-  "fork": false,
-  "url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin",
-  "forks_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/forks",
-  "keys_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/keys{/key_id}",
-  "collaborators_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/collaborators{/collaborator}",
-  "teams_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/teams",
-  "hooks_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/hooks",
-  "issue_events_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/issues/events{/number}",
-  "events_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/events",
-  "assignees_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/assignees{/user}",
-  "branches_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/branches{/branch}",
-  "tags_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/tags",
-  "blobs_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/git/blobs{/sha}",
-  "git_tags_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/git/tags{/sha}",
-  "git_refs_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/git/refs{/sha}",
-  "trees_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/git/trees{/sha}",
-  "statuses_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/statuses/{sha}",
-  "languages_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/languages",
-  "stargazers_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/stargazers",
-  "contributors_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/contributors",
-  "subscribers_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/subscribers",
-  "subscription_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/subscription",
-  "commits_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/commits{/sha}",
-  "git_commits_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/git/commits{/sha}",
-  "comments_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/comments{/number}",
-  "issue_comment_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/issues/comments{/number}",
-  "contents_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/contents/{+path}",
-  "compare_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/compare/{base}...{head}",
-  "merges_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/merges",
-  "archive_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/{archive_format}{/ref}",
-  "downloads_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plug100  6625  100  6591  100    34   7508     38 --:--:-- --:--:-- --:--:--  7506
-in/downloads",
-  "issues_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/issues{/number}",
-  "pulls_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/pulls{/number}",
-  "milestones_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/milestones{/number}",
-  "notifications_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/notifications{?since,all,participating}",
-  "labels_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/labels{/name}",
-  "releases_url": "https://api.github.com/repos/mojohaus/cassandra-maven-plugin/releases{/id}",
-  "created_at": "2015-05-17T19:57:17Z",
-  "updated_at": "2015-05-17T19:57:17Z",
-  "pushed_at": "2015-05-17T19:57:17Z",
-  "git_url": "git://github.com/mojohaus/cassandra-maven-plugin.git",
-  "ssh_url": "git@github.com:mojohaus/cassandra-maven-plugin.git",
-  "clone_url": "https://github.com/mojohaus/cassandra-maven-plugin.git",
-  "svn_url": "https://github.com/mojohaus/cassandra-maven-plugin",
-  "homepage": null,
-  "size": 0,
-  "stargazers_count": 0,
-  "watchers_count": 0,
-  "language": null,
-  "has_issues": true,
-  "has_downloads": true,
-  "has_wiki": true,
-  "has_pages": false,
-  "forks_count": 0,
-  "mirror_url": null,
-  "open_issues_count": 0,
-  "forks": 0,
-  "open_issues": 0,
-  "watchers": 0,
-  "default_branch": "master",
-  "permissions": {
-    "admin": true,
-    "push": true,
-    "pull": true
-  },
-  "organization": {
-    "login": "mojohaus",
-    "id": 11403816,
-    "avatar_url": "https://avatars.githubusercontent.com/u/11403816?v=3",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/mojohaus",
-    "html_url": "https://github.com/mojohaus",
-    "followers_url": "https://api.github.com/users/mojohaus/followers",
-    "following_url": "https://api.github.com/users/mojohaus/following{/other_user}",
-    "gists_url": "https://api.github.com/users/mojohaus/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/mojohaus/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/mojohaus/subscriptions",
-    "organizations_url": "https://api.github.com/users/mojohaus/orgs",
-    "repos_url": "https://api.github.com/users/mojohaus/repos",
-    "events_url": "https://api.github.com/users/mojohaus/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/mojohaus/received_events",
-    "type": "Organization",
-    "site_admin": false
-  },
-  "network_count": 0,
-  "subscribers_count": 22
-}
-To git@github.com:mojohaus/cassandra-maven-plugin.git
- * [new branch]      master -> master
-To git@github.com:mojohaus/cassandra-maven-plugin.git
- * [new tag]         cassandra-maven-plugin-0.7.0-1 -> cassandra-maven-plugin-0.7.0-1
- * [new tag]         cassandra-maven-plugin-0.7.2-1 -> cassandra-maven-plugin-0.7.2-1
- * [new tag]         cassandra-maven-plugin-0.7.4-1 -> cassandra-maven-plugin-0.7.4-1
- * [new tag]         cassandra-maven-plugin-0.8.0-1 -> cassandra-maven-plugin-0.8.0-1
- * [new tag]         cassandra-maven-plugin-0.8.6-1 -> cassandra-maven-plugin-0.8.6-1
- * [new tag]         cassandra-maven-plugin-1.0.0-1 -> cassandra-maven-plugin-1.0.0-1
- * [new tag]         cassandra-maven-plugin-1.1.0-1 -> cassandra-maven-plugin-1.1.0-1
- * [new tag]         cassandra-maven-plugin-1.2.0-1 -> cassandra-maven-plugin-1.2.0-1
- * [new tag]         cassandra-maven-plugin-1.2.1-1 -> cassandra-maven-plugin-1.2.1-1
- * [new tag]         cassandra-maven-plugin-2.0.0-1 -> cassandra-maven-plugin-2.0.0-1
-Finished processing cassandra-maven-plugin
-/home/tiste/MOJOHAUS-TO-GIT/convert-to-git
-dimanche 17 mai 2015, 21:57:25 (UTC+0200)
-This is the end.
