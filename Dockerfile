@@ -1,6 +1,5 @@
 FROM debian:8.2
 MAINTAINER Baptiste Mathus <batmat@batmat.net>
-ENV GITHUB_TOKEN missing-pass-as-env-parameter
 
 RUN apt-get update -y && \
     apt-get install -y \
