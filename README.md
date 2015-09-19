@@ -12,12 +12,12 @@ The resulting migrated Git repository will be created inside the `/newgitrepo` p
 
 Here's an example command to run to trigger the conversion of the `aspectj-maven-plugin` (note: just an example, [this repo has already been converted and is already accessible](https://github.com/mojohaus/aspectj-maven-plugin))
 
-    d run --rm -v $PWD/newrepo:/newgitrepo \
-                -e projectName=aspectj-maven-plugin \
-                -e trunkPath=trunk/mojo/aspectj-maven-plugin \
-                -e tagsStartsWith=aspectj-maven-plugin- \
-                -e branches="" \
-          batmat/mojohaus-converter
+    docker run --rm -v $PWD/newrepo:/newgitrepo \
+               -e projectName=aspectj-maven-plugin \
+               -e trunkPath=trunk/mojo/aspectj-maven-plugin \
+               -e tagsStartsWith=aspectj-maven-plugin- \
+               -e branches="" \
+           batmat/mojohaus-converter
 
 When that execution ends, you will have a local new directory called _/newrepo_ with the migrated svn->git repository inside.
 
