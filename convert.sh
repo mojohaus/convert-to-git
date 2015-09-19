@@ -13,7 +13,9 @@ do
 	tagsStartsWith=`echo $line|cut -d, -f3`
 	branches=`echo $line|cut -d, -f4|sed 's/|/,/g'`
 
-	docker run --rm -v $PWD/newrepos:/newgitrepo \
+	docker run --rm \
+	           -v $PWD/newrepos:/newgitrepo \
+						 -v $HOME/.ssh:/root/.ssh:ro \
              -e projectName=$projectName \
              -e trunkPath=$trunkPath \
              -e tagsStartsWith=$tagsStartsWith \
