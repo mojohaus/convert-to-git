@@ -1,19 +1,15 @@
 #!/bin/bash
-
 set -eou pipefail
 
-#projectName=`echo $line|cut -d, -f1`
-#trunkPath=`echo $line|cut -d, -f2`
-#tagsStartsWith=`echo $line|cut -d, -f3`
-#branches=`echo $line|cut -d, -f4|sed 's/|/,/g'`
-
-#GITHUB_USER=batmat
-# https://github.com/blog/1509-personal-api-tokens
-#GITHUB_TOKEN=`cat .github_token`
-# http://fabian-kostadinov.github.io/2015/01/16/how-to-find-a-github-team-id/
-GITHUB_TEAM_ID=1353638
-GITHUB_ORG=mojohaus
-PUSH_TO_GITHUB="no"
+if [ "${PUSH_TO_GITHUB:="no"}" = "yes" ] ; then
+	echo "Push to GitHub: ENABLED"
+	echo "=> GITHUB_TOKEN=$GITHUB_TOKEN"
+	echo "=> GITHUB_USER=$GITHUB_USER"
+	echo "=> 	GITHUB_ORG=${GITHUB_ORG:="mojohaus"}"
+	echo "=> GITHUB_TEAM_ID=${GITHUB_TEAM_ID:="1353638"}"
+else
+	echo "Push to GitHub: DISABLED"
+fi
 
 SVN_URL="file:///mojohaus-svn-repo"
 cd /newgitrepo
