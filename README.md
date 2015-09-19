@@ -41,8 +41,3 @@ Hence, you can for example list the svn content using the simple following form:
              egrep  "^r[0-9]+ \|.*$"  | \
              cut -d'|' -f2 | \
              sort -u
-
-
-See the file committed in that repo, and please file a PR in the Git svn clone required format :
-
-    svnuser = Firstname Name <dude@domain.com>
