@@ -29,4 +29,4 @@ WORKDIR /newgitrepo
 
 ADD migration-tools /migration-tools
 
-ENTRYPOINT ["/migration-tools/convert-project.sh"]
+CMD ["/migration-tools/convert-project.sh"]
