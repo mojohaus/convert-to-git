@@ -7,6 +7,11 @@ if [ "${PUSH_TO_GITHUB:="no"}" = "yes" ] ; then
 	echo "=> GITHUB_USER=$GITHUB_USER"
 	echo "=> 	GITHUB_ORG=${GITHUB_ORG:="mojohaus"}"
 	echo "=> GITHUB_TEAM_ID=${GITHUB_TEAM_ID:="1353638"}"
+	test -d /.mapped-ssh && \
+	  cp -a /.mapped-ssh /root/.ssh && \
+		chown -R root:root /root/.ssh && \
+		chmod a+x /root/.ssh && \
+		chmod 600 /root/.ssh/*
 else
 	echo "Push to GitHub: DISABLED"
 fi

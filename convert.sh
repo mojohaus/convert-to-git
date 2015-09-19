@@ -15,7 +15,7 @@ do
 
 	docker run --rm \
 	           -v $PWD/newrepos:/newgitrepo \
-						 -v $HOME/.ssh:/root/.ssh:ro \
+						 -v $HOME/.ssh:/.mapped-ssh:ro \
              -e projectName=$projectName \
              -e trunkPath=$trunkPath \
              -e tagsStartsWith=$tagsStartsWith \
